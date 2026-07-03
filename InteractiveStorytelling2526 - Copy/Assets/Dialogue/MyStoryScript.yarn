@@ -1,0 +1,568 @@
+title: Start
+position: 6,14
+---
+<<set $youngpersonName = "girl">>
+<<play_timeline 1>>
+
+Narration: You feel dizzy a white room seems to spin around you and you hear a feminin voice your sister, friend maybe, but you dont seem to be able to remember their voices? #line:0a59a3d 
+
+
+femminin voice: Finally someone is awake! #line:0c92483 
+
+-> remain quiet #line:0cb76b6 
+    player: ... #line:0109ad5 
+    {$youngpersonName}: you arent mute right, plz plz dont be. your the first person to wake up in hours #line:0ab0551 
+    -> remain quiet #line:0ee2251 
+        player: ... #line:08c08e9 
+        <<jump WakingUp>>
+    -> who are you?  #line:09fc669 
+        player: who are you? #line:0091a3c
+        {$youngpersonName}: i ehm as weird as it sound i dont really know?   #line:0af5d17 
+        {$youngpersonName}: i just woke up here in this white boring sterilised room with the 3 of you still unconscious #line:0178069 
+        {$youngpersonName}: the door is locked i checked and theres a camera so we might be watched #line:0b22785 
+        <<jump WakingUp>>
+    -> where are we? #line:07f06f6 
+        player: where are we? #line:0acfbcb 
+        {$youngpersonName}: it kinda looks like a bunker room, but if youve got a better idea feel free to speak up. #line:02c75f9 
+        <<jump WakingUp>>       
+    
+-> who are you?   #line:0fc1a1f 
+    player: who are you? #line:03e31e7 
+    {$youngpersonName}: i ehm as weird as it sound i dont really know? #line:06fc03e 
+    {$youngpersonName}: i just woke up here in this white boring sterilised room with the 3 of you still unconscious #line:05d80b9 
+    {$youngpersonName}: the door is locked i checked and theres a camera so we might be watched #line:04d99a8 
+    -> what about the others #line:0663a47 
+        {$youngpersonName}: I have no idea based on his clothes I’d guess the younger guy is some kind of doctor or scientist. #line:0e02ec5 
+        {$youngpersonName}: As for the older one your quess is as good as mine #line:0ba1247 
+        <<jump WakingUp>>
+    -> who am I #line:08dc9dc 
+        player: now that you mention it who even am i? #line:061a225 
+        {$youngpersonName}: sorry i dont really know, but honestly im more concerned with where we are. #line:078c777 
+        <<jump WakingUp>>
+        -> what about the others #line:0e1ab72 
+        {$youngpersonName}: I have no idea based on his clothes I’d guess the younger guy is some kind of doctor or scientist. #line:0d0223c 
+        {$youngpersonName}: As for the older one your quess is as good as mine #line:0083af7 
+        <<jump WakingUp>>
+-> where are we?  #line:00f2b20 
+    player: where are we? #line:072651a  
+    {$youngpersonName}: it kinda looks like a bunker room, but if youve got a better idea feel free to say. #line:08a31c1 
+    <<jump WakingUp>>
+
+===
+title: WakingUp
+position: 6,14
+---
+<<play_timeline intro_cutscene>>
+old guy: cough cough #line:08840cf 
+{$youngpersonName}: hey someone else is waking up lets check it out #line:06f1667 
+
+old guy: WHO THE HELL ARE YOU AND WHAT HAVE YOU DONE TO ME! #line:023ce7c 
+<<play_timeline Doc_Wakes_Up>>
+doctor: ugh #line:042325e 
+-> shut up #line:096fd81 
+    player: oh shut up were all in the same boat here #line:0377832 
+    <<jump ForcingTheDoor>>
+-> explain #line:03dbc90 
+    player: i just woke up like 2 minutes ago so i honestly dont know any more than you do. #line:0ecd675 
+    <<jump ForcingTheDoor>>
+-> help the doc #line:0a08b90 
+    <<walk_to "young person" "Doc">>
+    player: hey there, are you feeling alright #line:02e2167 
+    doctor: who are you? #line:0a62fd8 
+    old guy: what your just gonna ignore me #line:02bbada 
+    player: i just woke up like 2 minutes ago so i honestly dont know any more than you do. #line:0ca11ac 
+    {$youngpersonName}: u oke? #line:0f5f05e 
+    doctor: not really no? #line:0c98097 
+    <<jump ForcingTheDoor>>
+
+===
+
+title: ForcingTheDoor
+position: 6,14
+---
+<<wait  1>>
+<<walk_to "big guy" "doorlocation">>
+<<wait  3>>
+sound: klang! #line:0215e69 
+<<play_timeline Forcing_Door>>
+
+doc: what are you doing! #line:0606097 
+old guy: what do you think, getting the hell out of here #line:01e3ddc 
+doc: And where do you think that is exactly? #line:0b723d1 
+-> remain quiet #line:063bdf9 
+    old guy: come on help me kick this door open! #line:0371756 
+    {$youngpersonName}: its pointless do you really think you can just kick in a metal door #line:0913b6b 
+    old guy: what do you have any better ideas #line:02411ee 
+    {$youngpersonName}: i might be able to lockpick it if we can find something #line:0a09310 
+-> lets find a way out #line:0e87bcf 
+    old guy: come on help me kick this door open! #line:017d060 
+    {$youngpersonName}: its pointless do you really think you can just kick in a metal door #line:080c4c6 
+    old guy: what do you have any better ideas #line:052af3e 
+    {$youngpersonName}: i might be able to lockpick it if we can find something #line:02eef63 
+    
+
+===
+
+title: Try_Help_Kickin
+position: 6,14
+---
+player: sure ill help #line:04550db 
+guy: great someone here wants to get out alive #line:0dae314 
+<<walk_to "big guy" "doorlocation">>
+<<wait 2>>
+guy: 3 #line:0e5e759 
+guy: 2 #line:019a3cf 
+guy: 1 #line:095ffc1 
+guy: kick! #line:0a53332 
+player: you push as hard as you can #line:08f3f99 
+guy: FUCK THAT HURTS #line:043111e 
+
+===
+
+title: Interact_Camera
+position: 6,14
+---
+
+player: would this work? #line:0892d4f 
+<<walk_to "young person" "cameralocation">>
+{$youngpersonName}: yeah if you can get one of the wires lose #line:0684be1 
+<<wait 4>>
+<<play_timeline Camera>>
+{$youngpersonName}: aaaaand done! #line:0957877 
+everyone: how are you able to do that! #line:006b9b4 
+{$youngpersonName}: i ugh i dont really know? #line:03203ad 
+doc: what do you mean you dont know how could you not know something like that #line:070aa44 
+{$youngpersonName}: well i dont seem to remember anything before this room do you? #line:0ad0e18 
+doc: ofc i do ive ... ... #line:03818df 
+doc: am i having a phychotic break or smthing? #line:039feec 
+
+===
+
+title: LockPick_Door
+position: 6,14
+---
+<<walk_to "young person" "doorlocation2">>
+<<wait 3>>
+<<play_timeline LockPick>>
+
+{$youngpersonName}: andd done #line:08e576d 
+<<walk_to "young person" "hallwaylocation1">>
+<<walk_to "DOCTOR" "hallwaylocation2">>
+<<walk_to "big guy" "hallwaylocation3">>
+<<wait 5>>
+<<jump Hallway>>
+===
+
+title: Hallway
+position: 6,14
+---
+<<play_timeline Hallway>>
+{$youngpersonName}: well the coast is clear there dont seem to be any people arround #line:0c3b830 
+doc: great, uhm well any suggestions on where to go? #line:06bb1c6 
+old guy: acording to the map the exit is right #line:0af46e0 
+doc:  we dont even know who we are what are we going to do when we get out. WHERE are we goingt to go, #line:0fa838f 
+doc: i think we should find out as much as possible by going to the control room, #line:0c04d08 
+old guy: fuck that i aint staying here any longer than i have to you either go with me or you dont #line:06fc1a5 
+
+-> leave the old guy  #line:0b202a6 
+    player: lets let him leave on his own #line:0bb4148 
+    {$youngpersonName}: its better to stick together, considering our circomstances #line:00f5c81 
+    doc: i think it might be better this way i allready have enough of a headache. #line:0531a6a 
+    <<set $old_man = 0>>
+    <<jump Control_Room_Without>>
+-> ask the girl what she thinks  #line:0e3fb01 
+    player: what do you think? #line:0f70564 
+    {$youngpersonName}: lets go to the control room first but if anything ANYTHING is off were going with that old guys plan #line:04b0478 
+    old guy: fine ill stick with you for now, but the first chance i get im leaving #line:0833b6c 
+    <<set $old_man to 1>>
+    <<jump Control_Room_With>>
+    
+-> go to the exit #line:059b68f 
+    player: lets try the exit first #line:07f2d21 
+    <<set $old_man to 1>>
+    <<jump To_Exit_With_Everyone>>
+-> try to convince the old guy to come with #line:0b6b36b 
+    player: its better if we stick together, considering our circomstances, im sure well get back in no time #line:0eb0d52 
+    old guy: fine ill stick with you for now, but the first chance i get im leaving  #line:0bde711 
+    <<set $old_man to 1>>
+    <<jump Control_Room_With>>
+
+===
+
+
+title: Control_Room_Without
+position: 6,14
+---
+
+<<walk_to "young person" "controlroomhalfway1">> 
+<<wait 0>>
+<<walk_to "DOCTOR" "controlroomhalfway2">> 
+<<wait 2>>
+<<walk_to "big guy" "exit1">> 
+<<wait 6>>
+
+
+<<walk_to "young person" "controlroomdoor1">> 
+<<wait 0>>
+<<walk_to "DOCTOR" "controlroomdoor2">> 
+<<wait 5>>
+
+doc: the door seems to be locked with a keycard, any chance you can repeat the same trick again?  #line:0c5a87b 
+{$youngpersonName}: cant lockpick passkey sorry. #line:0483a0e 
+
+-> walk back to try and find it #line:08c8c09 
+    <<walk_to "young person" "breakroomentrance1">>
+    <<wait 4>>
+    <<walk_to "DOCTOR" "breakroomentrance2">>
+    {$youngpersonName}: how about this it looks like a breakroom for higherups #line:095bb18 
+    <<jump Breakroom>>
+
+===
+title: Control_Room_With
+position: 6,14
+---
+<<walk_to "young person" "controlroomhalfway1">> 
+<<wait 0>>
+<<walk_to "DOCTOR" "controlroomhalfway2">> 
+<<wait 2>>
+<<walk_to "big guy" "controlroomhalfway3">> 
+<<wait 6>>
+
+
+<<walk_to "young person" "controlroomdoor1">> 
+<<wait 0>>
+<<walk_to "DOCTOR" "controlroomdoor2">> 
+<<wait 1>>
+<<walk_to "big guy" "controlroomdoor3">>
+<<wait 4>>
+old guy: rattle rattle the door seems locked hey girlie can you break into it #line:024de79 
+{$youngpersonName}: first off all never call me that again! #line:066b0c5 
+{$youngpersonName}: but no i cant just lockpick a passkey #line:0866f79 
+old guy: well then lets try kicking it again #line:0983119 
+-> kick in the door again #line:0f814b5 
+    player: sure why not ive got space for a few more bruices #line:088c564 
+    old guy: 3 #line:0b06a1c 
+    old guy: 2 #line:031ba4c 
+    old guy: 1 #line:0c66d12 
+    player: well we tried #line:0e42d53 
+    -> walk back to try and find it #line:0ebf90f 
+        <<walk_to "young person" "breakroomentrance1">>
+        <<wait 5>>
+        <<walk_to "DOCTOR" "breakroomentrance2">>
+        <<walk_to "big guy" "breakroomentrance3">>
+        {$youngpersonName}: how about this it looks like a breakroom for higherups #line:0669424 
+    <<jump Breakroom>>
+-> walk back to try and find it #line:05a2461 
+    <<walk_to "young person" "breakroomentrance1">>
+    <<wait 5>>
+    <<walk_to "DOCTOR" "breakroomentrance2">>
+    <<walk_to "big guy" "breakroomentrance3">>
+    {$youngpersonName}: how about this it looks like a breakroom for higherups #line:0541830 
+    <<jump Breakroom>>
+
+===
+title: Breakroom
+position: 6,14
+---
+doc: great, then lets head there #line:01512ff 
+<<wait 1>>
+<<walk_to "young person" "breakroom1">>
+<<wait 1>>
+<<walk_to "DOCTOR" "breakroom2">>
+<<if $old_man == 1>>
+    <<walk_to "big guy" "breakroom3">>
+<<else>>
+    <<walk_to "big guy" "breakroomentrance1">>
+<<endif>>
+<<wait 4>>
+<<play_timeline Breakroom>>
+
+===
+
+title: help_the_young_person
+position: 6,14
+---
+
+player: ehh hi? can i help you with something? #line:0a3685e 
+{$youngpersonName}: yeah ofc you can! #line:06ea25a 
+{$youngpersonName}: start on the other side of the rack we will work our way to the middle #line:06b216f 
+young person: i would prefer if you didnt call me girl its obviously not my name tho i guess i dont even know it #line:0fbea3d 
+young: but even ontop of that it just feels wrong #line:05e6286 
+player: what would i call you then? #line:086a33f 
+young person: idk any good ideas? #line:05218c7 
+-> Call them sky #line:0983a35 
+    how about sky, since thats what were trying to get to #line:0f80ca5 
+    <<set $youngpersonName = "Sky">> 
+    {$youngpersonName}: i like that ty #line:005f1e3 
+    <<jump AfterNameChoice>>
+-> Call them alex #line:00e9552
+    player: what about alex, it seems like a nice name #line:05260b0 
+    <<set $youngpersonName = "Alex">>
+    {$youngpersonName}: i mean i cant think of anything better, itl have to do for now #line:0164b56 
+    {$youngpersonName}: thank you for understanding tho #line:0500649 
+    <<jump AfterNameChoice>>
+-> Call them max #line:046f65b 
+    player: how about Sam does that suit you? #line:0bdd4d6 
+    <<set $youngpersonName = "Sam">>
+    <<jump AfterNameChoice>>
+
+
+===
+title: AfterNameChoice
+position: 6,14
+---
+{$youngpersonName}: ha found something!!! #line:0b2c333 
+doctor: i guess we just try it on the door then #line:0e7659c 
+<<play_timeline Breakroom_End>>
+<<if $old_man == 1>>
+    old guy: sigh #line:0efded1 
+    <<jump control_room>>
+<<else>>
+    <<jump find_the_old_man>>
+<<endif>>
+===
+
+title: help_the_doctor
+position: 6,14
+---
+
+    player: hey can i help you with something? #line:0ad72e2 
+    doctor: oh yeah sure im just looking through some file cabinets #line:0f89c54 
+    player: doesnt seem likely someone would put their keycard in there? #line:09ed9b6 
+    doctor: well you never know besides why do you think we're here, and why us specifically #line:0050101 
+    doctor: doesnt it bother you #line:028d766 
+    doctor: i want to get out of here obviously but if i find some answers along the way i wouldnt be mad #line:0281bef 
+    doctor: like here this is the budget report, it seems an enormous ammount of their budget went into some clasified scientific project #line:077acf0 
+    player: does it have anything to do with what happened to us you think? #line:06137b7 
+    doctor: it could but i didnt see any big apparatus where we were? #line:00ad72b 
+    player: FOUND IT! #line:0dda235 
+    doctor: great lets head back then #line:08cad58 
+    <<play_timeline Breakroom>>
+    <<play_timeline Breakroom_End>>
+
+    <<if $old_man == 1>>
+        old guy: sigh #line:012d810 
+        <<jump control_room>>
+    <<else>>
+        <<jump find_the_old_man>>
+    <<endif>>
+===
+
+title: help_the_old_guy
+position: 6,14
+---
+player: hey can i help you with something? #line:05f0b69 
+old guy: not unless youve got a way out of here #line:01ca748 
+<<wait 1>>
+old guy: sorry that was rude its just a stressfull situation, you try the drawers on the other side #line:0ff922d 
+player: its fine, cant really blame you right now its kinda stressfull for everyone #line:02b14f1 
+old guy: i just feel like im missing something a part of myself or someone i really care for #line:0a1a06b 
+player: im sorry i cant really say the same for me, but not even knowing who you are what youve done it terrifies mean #line:047a4f3 
+player: i really hope we will get it back when all of this is over #line:04f44b6 
+old guy: hey i think i found a keychain #line:05a870c 
+player: lets head back then and get this over with #line:04c4fd0 
+<<play_timeline Breakroom>>
+<<play_timeline Breakroom_End>>
+
+<<jump control_room>>
+===
+title: find_the_old_man
+position: 6,14
+---
+<<walk_to "young person" "breakroomentrance2">>
+<<wait 1>>
+<<walk_to "DOCTOR" "breakroomentrance3">>
+
+
+
+{$youngpersonName}: huh! so you decided to come with instead? #line:02e2983 
+old_man: theres a big metal door at the end we seem to be in some kind of bunker vacility i couldnt get out #line:00f17d9 
+{$youngpersonName}: im glad were back together, even if its you #line:0d2c5b2 
+old guy: you just have to be cocky dont you #line:0ce768f 
+<<jump control_room>>
+===
+
+title: control_room
+position: 6,14
+---
+<<walk_to "young person" "controlroomdoor1">> 
+<<walk_to "DOCTOR" "controlroomdoor2">> 
+<<walk_to "big guy" "controlroomdoor3">>
+===
+
+title: Open_Door
+position: 6,14
+---
+-> use the keycard on this door #line:08e62d3 
+    <<play_timeline Open_Door>>
+  
+    <<walk_to "young person" "ControlRoom1">> 
+    <<walk_to "DOCTOR" "ControlRoom2">>
+    <<walk_to "big guy" "controlRoom3">>
+    <<wait 3>>
+    {$youngpersonName}: we made it! lets look arround and see if we can acces anything #line:0e97f62 
+    -> player: search arround the room for clues #line:0727a0d 
+    -> player: go back to the exit and use the keycard there  #line:004e821 
+        player: lets head back to the exit maybe we can use the keycard there #line:06063d3 
+        <<walk_to "young person" "exit1">> 
+        <<walk_to "DOCTOR" "exit2">>
+        <<walk_to "big guy" "exit3">>
+    
+
+===
+
+title: project_shift
+position: -88,567
+---
+<<play_timeline ProjectShift_graphic>>
+old man: it looks like a map, lets just press the button and get the hell outta here #line:0eac3f1 
+doctor: hold up a sec #line:013a9df 
+{$youngpersonName}: look at this file project cancelation #line:0fcc7b7 
+player: the file seems locked #line:0fc1a3d 
+{$youngpersonName}: i might be able to open it given enough time #line:0b92141 
+
+-> press the button #line:061880d 
+    <<jump colapse_ending>>
+-> let the girl crack the cancelation file #line:0b53e7a 
+    {$youngpersonName}: working on it #line:01011fe 
+    <<wait 4>>
+    {$youngpersonName}: done it should open now #line:07a90f8 
+    <<play_timeline ProjectCancelation_graphic>>
+    -> set the device up right #line:046866b 
+        <<jump white_room_ending>>
+    -> press the button #line:0f3747e 
+        <<jump colapse_ending>>
+-> test suubject files #line:09ab285 
+<<play_timeline TestSubjectFiles_graphic>>
+    -> project cancelation #line:0538b5b 
+    <<play_timeline ProjectCancelation_graphic>>
+        -> press the button #line:0a9010a 
+            <<jump colapse_ending>>
+       -> let the girl crack the cancelation file #line:0c56b6f 
+        {$youngpersonName}: working on it #line:0856224 
+        <<wait 4>>
+        {$youngpersonName}: done it should open now #line:099013c 
+        <<play_timeline ProjectCancelation_graphic>>
+        -> set the device up right #line:0e94a9a 
+            <<jump white_room_ending>>
+        -> press the button #line:00f0325 
+            <<jump colapse_ending>>
+-> head back to the exit with your keycard #line:0eb3665 
+    player: lets just head back to the exit now that we have a keycard #line:0ae65dd 
+    <<walk_to "young person" "exit1">> 
+    <<walk_to "DOCTOR" "exit2">>
+    <<walk_to "big guy" "exit3">>
+===
+title: colapse_ending
+position: 297,-124
+---
+player: You press the button #line:0ff5167 
+doctor: lets hope this works #line:0637e7c 
+{$youngpersonName}: yeah fingers crossed #line:08cde8f 
+player: you feel the ground shaking beneath your feet #line:0a38f00 
+old guy: did anyone else feel that? #line:07f495f 
+doctor: the ground is shaking, no more than that i think this reality itself is colapse_ending #line:0e9847b 
+player: nothing #line:0cc1404 
+
+the end: the end #line:0368a71 
+
+===
+title: white_room_ending
+position: -222,-237
+---
+{$youngpersonName}: hey doc give me some help setting this thing up #line:09a7492 
+doc: it looks like we have to return to our original location for it to work properly #line:095dcb8 
+old guy: how do we know if this will even work #line:08e2d8e 
+{$youngpersonName}: we dont but i dont see any other options #line:0eebdaa 
+<<walk_to "young person" "room1">> 
+<<walk_to "DOCTOR" "room2">>
+<<walk_to "big guy" "room3">>
+<<wait 7>>
+
+<<play_timeline white_room_ending>>
+sound: you hear voices outside of the door #line:0aa7357 
+old guy: wait… i remember someone waiting for me #line:0f2de43 
+{$youngpersonName}: were back!!  #line:0790379 
+{$youngpersonName}: never thought i would be happy to return to my life but omg anything is better than that #line:0161059 
+doctor: why did i ever chose to be a part in this #line:062f12b 
+the end: the end #line:0638606 
+
+
+===
+
+title: To_Exit_With_Everyone
+position: 345,151
+---
+
+<<walk_to "young person" "exit1">> 
+<<walk_to "DOCTOR" "exit2">>
+<<walk_to "big guy" "exit3">>
+<<wait 7>>
+{$youngpersonName}: wow this room is big #line:09e0a1f 
+doctor: this looks more like a military bunker or highly clasified research facility  #line:075d677 
+{$youngpersonName}: the door seems closed tho lets try to find a way to open it #line:0918e6d 
+===
+
+title: Interact_Exit_Door
+position: -212,153
+---
+player: the door seems locked,  #line:0cd13fa 
+{$youngpersonName}: ah shit, i guess we will have to find a key someowhere, lets head the other way first #line:008be4b 
+-> stay here and wait #line:067128d 
+-> head to the control room #line:0b19d4b 
+    <<walk_to "young person" "controlroomhalfway1">> 
+    <<wait 0>>
+    <<walk_to "DOCTOR" "controlroomhalfway2">> 
+    <<wait 2>>
+    <<walk_to "big guy" "controlroomhalfway3">> 
+    <<wait 6>>
+    <<jump Control_Room_With>>
+
+===
+
+
+
+title: empty_ending
+position: 66,245
+---
+<<play_timeline empty_ending>>
+<<wait 10>>
+player: you arrive at the exit and the door opens with a keycard, you walk through and look up at the sky #line:0da9e27 
+
+{$youngpersonName}: the sky is amazing isnt it, in some way this is the first time ive seen it #line:06616ce 
+{$youngpersonName}: i know what it is but somehow i didnt remember exactly how magical it feels, #line:00d5a42 
+old guy: hey theres a parking lot right there, lets just grab a car and leave #line:049146b 
+doc: im starting to feel dizy, like the world itself is shaking and bending #line:0f56197 
+player: agh you all fall down and it returns to normal for now #line:0a8f49c 
+the end: the end #line:0da7c3c 
+
+
+===
+
+
+
+
+
+
+
+
+
+
+
+
+title: NPC
+position: 53,-321
+---
+Player: Hello #line:0278c08 
+<<play_fmod_instance "event:/Music/AdaptiveMusic">>
+NPC: Hello, this is a sample showing off the localization #line:0b447a5 
+-> Neat #line:0909db8 
+    Player: great idea, I like it! #line:0c80885 
+    <<set_fmod_parameter "event:/Music/AdaptiveMusic" "Progression" 2>>
+    NPC: right? #line:0eadbfb 
+-> Dull #line:003c677 
+    Player: kinda dull and boring to be honest #line:0ea3fe2 
+    <<set_fmod_parameter "event:/Music/AdaptiveMusic" "Progression" 4>>
+    NPC: rude! #line:0c6804e 
+<<stop_fmod_instance "event:/Music/AdaptiveMusic">>
+===

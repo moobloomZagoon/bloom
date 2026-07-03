@@ -1,0 +1,21 @@
+{
+  "projectFileVersion": 2,
+  "sourceFiles": [
+    "*.yarn"
+  ],
+  "excludeFiles": [
+    "**/*~/*"
+  ],
+  "localisation": {
+    "nl": {
+      "strings": "Localization\\NL_MyStoryProject - nl.csv"
+    },
+    "zh-Hans": {
+      "assets": "Localization",
+      "strings": "Localization\\china!\\Ch_MyStoryProject - ch.csv"
+    }
+  },
+  "baseLanguage": "en",
+  "compilerOptions": {},
+  "definitionsFiles": []
+}
