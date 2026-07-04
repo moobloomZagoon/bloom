@@ -8,14 +8,11 @@
   ],
   "localisation": {
     "nl": {
-      "strings": "Localization\\NL_MyStoryProject - nl.csv"
-    },
-    "zh-Hans": {
-      "assets": "Localization",
-      "strings": "Localization\\china!\\Ch_MyStoryProject - ch.csv"
+      "strings": "Localization\\NL_MyStoryProject.csv"
     }
   },
   "baseLanguage": "en",
-  "compilerOptions": {},
-  "definitionsFiles": []
+  "compilerOptions": {
+    "diagnosticsSeverity": {}
+  }
 }

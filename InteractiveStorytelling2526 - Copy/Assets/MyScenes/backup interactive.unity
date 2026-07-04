@@ -202,6 +202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &37995430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,6 +469,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &68078317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1160,6 +1166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &120919511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2899,81 +2908,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 413403901}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &376421050
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 376421051}
-  - component: {fileID: 376421053}
-  - component: {fileID: 376421052}
-  m_Layer: 0
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &376421051
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376421050}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 26.645, y: 26.645, z: 26.645}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 643999442}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &376421052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376421050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &376421053
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376421050}
-  m_CullTransparentMesh: 1
 --- !u!1 &379674755
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,6 +3006,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!1 &383184373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,6 +3112,362 @@ Transform:
   - {fileID: 1951490199}
   m_Father: {fileID: 1298916126}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &424699379
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2606
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 34.51391, y: 15.902496, z: 0.93566895}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 3e0e0ac2a0707ec100886f3f00000000000000000000803f000080bf0000000000000000000080bf3e0e8a42a070f6c13e0e0a42a0707ec100886f3f00000000000000000000803f000080bf0000000000000000000080bf00000000a070f6c13e0e0ac2a0707e4100886f3f00000000000000000000803f000080bf0000000000000000000080bf3e0e8a420000803f3e0e0a42a0707e4100886f3f00000000000000000000803f000080bf0000000000000000000080bf000000000000803f3e0e0a42a0707ec100886f3f0000803f000000000000000000000000000000000000803f000080bf0088ef3fa070f6c13e0e0a42a0707ec100886fbf0000803f000000000000000000000000000000000000803f000080bf00000000a070f6c13e0e0a42a0707e4100886f3f0000803f000000000000000000000000000000000000803f000080bf0088ef3f0000803f3e0e0a42a0707e4100886fbf0000803f000000000000000000000000000000000000803f000080bf000000000000803f3e0e0a42a0707ec100886fbf0000000000000000000080bf0000803f0000000000000000000080bf3e0e8a42a070f6c13e0e0ac2a0707ec100886fbf0000000000000000000080bf0000803f0000000000000000000080bf00000000a070f6c13e0e0a42a0707e4100886fbf0000000000000000000080bf0000803f0000000000000000000080bf3e0e8a420000803f3e0e0ac2a0707e4100886fbf0000000000000000000080bf0000803f0000000000000000000080bf000000000000803f3e0e0ac2a0707ec100886fbf000080bf00000000000000000000000000000000000080bf000080bf0088ef3fa070f6c13e0e0ac2a0707ec100886f3f000080bf00000000000000000000000000000000000080bf000080bf00000000a070f6c13e0e0ac2a0707e4100886fbf000080bf00000000000000000000000000000000000080bf000080bf0088ef3f0000803f3e0e0ac2a0707e4100886f3f000080bf00000000000000000000000000000000000080bf000080bf000000000000803f3e0e0ac2a0707e4100886f3f000000000000803f000000000000803f0000000000000000000080bf000000000000803f3e0e0a42a0707e4100886f3f000000000000803f000000000000803f0000000000000000000080bf3e0e8a420000803f3e0e0ac2a0707e4100886fbf000000000000803f000000000000803f0000000000000000000080bf0000000000105fbf3e0e0a42a0707e4100886fbf000000000000803f000000000000803f0000000000000000000080bf3e0e8a4200105fbf3e0e0ac2a0707ec100886fbf00000000000080bf00000000000080bf0000000000000000000080bf3e0e8a4200105fbf3e0e0a42a0707ec100886fbf00000000000080bf00000000000080bf0000000000000000000080bf0000000000105fbf3e0e0ac2a0707ec100886f3f00000000000080bf00000000000080bf0000000000000000000080bf3e0e8a420000803f3e0e0a42a0707ec100886f3f00000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 34.51391, y: 15.902496, z: 0.93566895}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
+--- !u!43 &433707366
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2790
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.79577065, y: 9.323589, z: 22.11581}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: a0b74bbf6c2d15c12eedb04100000000000000000000803f000080bf0000000000000000000080bfa0b7cb3f6c2d8dc1a0b74b3f6c2d15c12eedb04100000000000000000000803f000080bf0000000000000000000080bf000000006c2d8dc1a0b74bbf6c2d15412eedb04100000000000000000000803f000080bf0000000000000000000080bfa0b7cb3f0000803fa0b74b3f6c2d15412eedb04100000000000000000000803f000080bf0000000000000000000080bf000000000000803fa0b74b3f6c2d15c12eedb0410000803f000000000000000000000000000000000000803f000080bf2eed30426c2d8dc1a0b74b3f6c2d15c12eedb0c10000803f000000000000000000000000000000000000803f000080bf000000006c2d8dc1a0b74b3f6c2d15412eedb0410000803f000000000000000000000000000000000000803f000080bf2eed30420000803fa0b74b3f6c2d15412eedb0c10000803f000000000000000000000000000000000000803f000080bf000000000000803fa0b74b3f6c2d15c12eedb0c10000000000000000000080bf0000803f0000000000000000000080bfa0b7cb3f6c2d8dc1a0b74bbf6c2d15c12eedb0c10000000000000000000080bf0000803f0000000000000000000080bf000000006c2d8dc1a0b74b3f6c2d15412eedb0c10000000000000000000080bf0000803f0000000000000000000080bfa0b7cb3f0000803fa0b74bbf6c2d15412eedb0c10000000000000000000080bf0000803f0000000000000000000080bf000000000000803fa0b74bbf6c2d15c12eedb0c1000080bf00000000000000000000000000000000000080bf000080bf2eed30426c2d8dc1a0b74bbf6c2d15c12eedb041000080bf00000000000000000000000000000000000080bf000080bf000000006c2d8dc1a0b74bbf6c2d15412eedb0c1000080bf00000000000000000000000000000000000080bf000080bf2eed30420000803fa0b74bbf6c2d15412eedb041000080bf00000000000000000000000000000000000080bf000080bf000000000000803fa0b74bbf6c2d15412eedb041000000000000803f000000000000803f0000000000000000000080bf000000000000803fa0b74b3f6c2d15412eedb041000000000000803f000000000000803f0000000000000000000080bfa0b7cb3f0000803fa0b74bbf6c2d15412eedb0c1000000000000803f000000000000803f0000000000000000000080bf000000002eed2cc2a0b74b3f6c2d15412eedb0c1000000000000803f000000000000803f0000000000000000000080bfa0b7cb3f2eed2cc2a0b74bbf6c2d15c12eedb0c100000000000080bf00000000000080bf0000000000000000000080bfa0b7cb3f2eed2cc2a0b74b3f6c2d15c12eedb0c100000000000080bf00000000000080bf0000000000000000000080bf000000002eed2cc2a0b74bbf6c2d15c12eedb04100000000000080bf00000000000080bf0000000000000000000080bfa0b7cb3f0000803fa0b74b3f6c2d15c12eedb04100000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.79577065, y: 9.323589, z: 22.11581}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &449166866
 GameObject:
   m_ObjectHideFlags: 0
@@ -3580,6 +3873,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &548137124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4179,7 +4475,6 @@ RectTransform:
   m_LocalScale: {x: 0.33699, y: 0.33699, z: 0.33699}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 376421051}
   - {fileID: 895781749}
   - {fileID: 183026274}
   m_Father: {fileID: 1759807584}
@@ -4650,6 +4945,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &749488581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4930,6 +5228,184 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!43 &803149552
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2846
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 1.1193657, y: 15.734099, z: 33.68403}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 60478fbfdfbe7bc172bc064200000000000000000000803f000080bf0000000000000000000080bf60470f40dfbef3c160478f3fdfbe7bc172bc064200000000000000000000803f000080bf0000000000000000000080bf00000000dfbef3c160478fbfdfbe7b4172bc064200000000000000000000803f000080bf0000000000000000000080bf60470f400000803f60478f3fdfbe7b4172bc064200000000000000000000803f000080bf0000000000000000000080bf000000000000803f60478f3fdfbe7bc172bc06420000803f000000000000000000000000000000000000803f000080bf72bc8642dfbef3c160478f3fdfbe7bc172bc06c20000803f000000000000000000000000000000000000803f000080bf00000000dfbef3c160478f3fdfbe7b4172bc06420000803f000000000000000000000000000000000000803f000080bf72bc86420000803f60478f3fdfbe7b4172bc06c20000803f000000000000000000000000000000000000803f000080bf000000000000803f60478f3fdfbe7bc172bc06c20000000000000000000080bf0000803f0000000000000000000080bf60470f40dfbef3c160478fbfdfbe7bc172bc06c20000000000000000000080bf0000803f0000000000000000000080bf00000000dfbef3c160478f3fdfbe7b4172bc06c20000000000000000000080bf0000803f0000000000000000000080bf60470f400000803f60478fbfdfbe7b4172bc06c20000000000000000000080bf0000803f0000000000000000000080bf000000000000803f60478fbfdfbe7bc172bc06c2000080bf00000000000000000000000000000000000080bf000080bf72bc8642dfbef3c160478fbfdfbe7bc172bc0642000080bf00000000000000000000000000000000000080bf000080bf00000000dfbef3c160478fbfdfbe7b4172bc06c2000080bf00000000000000000000000000000000000080bf000080bf72bc86420000803f60478fbfdfbe7b4172bc0642000080bf00000000000000000000000000000000000080bf000080bf000000000000803f60478fbfdfbe7b4172bc0642000000000000803f000000000000803f0000000000000000000080bf000000000000803f60478f3fdfbe7b4172bc0642000000000000803f000000000000803f0000000000000000000080bf60470f400000803f60478fbfdfbe7b4172bc06c2000000000000803f000000000000803f0000000000000000000080bf0000000072bc84c260478f3fdfbe7b4172bc06c2000000000000803f000000000000803f0000000000000000000080bf60470f4072bc84c260478fbfdfbe7bc172bc06c200000000000080bf00000000000080bf0000000000000000000080bf60470f4072bc84c260478f3fdfbe7bc172bc06c200000000000080bf00000000000080bf0000000000000000000080bf0000000072bc84c260478fbfdfbe7bc172bc064200000000000080bf00000000000080bf0000000000000000000080bf60470f400000803f60478f3fdfbe7bc172bc064200000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 1.1193657, y: 15.734099, z: 33.68403}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &803314022
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,6 +5475,184 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 980449539}
   m_PrefabAsset: {fileID: 0}
+--- !u!43 &830489952
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2804
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.79577065, y: 9.323589, z: 22.11581}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: a0b74bbf6c2d15c12eedb04100000000000000000000803f000080bf0000000000000000000080bfa0b7cb3f6c2d8dc1a0b74b3f6c2d15c12eedb04100000000000000000000803f000080bf0000000000000000000080bf000000006c2d8dc1a0b74bbf6c2d15412eedb04100000000000000000000803f000080bf0000000000000000000080bfa0b7cb3f0000803fa0b74b3f6c2d15412eedb04100000000000000000000803f000080bf0000000000000000000080bf000000000000803fa0b74b3f6c2d15c12eedb0410000803f000000000000000000000000000000000000803f000080bf2eed30426c2d8dc1a0b74b3f6c2d15c12eedb0c10000803f000000000000000000000000000000000000803f000080bf000000006c2d8dc1a0b74b3f6c2d15412eedb0410000803f000000000000000000000000000000000000803f000080bf2eed30420000803fa0b74b3f6c2d15412eedb0c10000803f000000000000000000000000000000000000803f000080bf000000000000803fa0b74b3f6c2d15c12eedb0c10000000000000000000080bf0000803f0000000000000000000080bfa0b7cb3f6c2d8dc1a0b74bbf6c2d15c12eedb0c10000000000000000000080bf0000803f0000000000000000000080bf000000006c2d8dc1a0b74b3f6c2d15412eedb0c10000000000000000000080bf0000803f0000000000000000000080bfa0b7cb3f0000803fa0b74bbf6c2d15412eedb0c10000000000000000000080bf0000803f0000000000000000000080bf000000000000803fa0b74bbf6c2d15c12eedb0c1000080bf00000000000000000000000000000000000080bf000080bf2eed30426c2d8dc1a0b74bbf6c2d15c12eedb041000080bf00000000000000000000000000000000000080bf000080bf000000006c2d8dc1a0b74bbf6c2d15412eedb0c1000080bf00000000000000000000000000000000000080bf000080bf2eed30420000803fa0b74bbf6c2d15412eedb041000080bf00000000000000000000000000000000000080bf000080bf000000000000803fa0b74bbf6c2d15412eedb041000000000000803f000000000000803f0000000000000000000080bf000000000000803fa0b74b3f6c2d15412eedb041000000000000803f000000000000803f0000000000000000000080bfa0b7cb3f0000803fa0b74bbf6c2d15412eedb0c1000000000000803f000000000000803f0000000000000000000080bf000000002eed2cc2a0b74b3f6c2d15412eedb0c1000000000000803f000000000000803f0000000000000000000080bfa0b7cb3f2eed2cc2a0b74bbf6c2d15c12eedb0c100000000000080bf00000000000080bf0000000000000000000080bfa0b7cb3f2eed2cc2a0b74b3f6c2d15c12eedb0c100000000000080bf00000000000080bf0000000000000000000080bf000000002eed2cc2a0b74bbf6c2d15c12eedb04100000000000080bf00000000000080bf0000000000000000000080bfa0b7cb3f0000803fa0b74b3f6c2d15c12eedb04100000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.79577065, y: 9.323589, z: 22.11581}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &838702825
 GameObject:
   m_ObjectHideFlags: 0
@@ -5037,6 +5691,184 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1889218332}
   m_PrefabAsset: {fileID: 0}
+--- !u!43 &855038158
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2832
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.79577065, y: 9.323589, z: 22.11581}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: a0b74bbf6c2d15c12eedb04100000000000000000000803f000080bf0000000000000000000080bfa0b7cb3f6c2d8dc1a0b74b3f6c2d15c12eedb04100000000000000000000803f000080bf0000000000000000000080bf000000006c2d8dc1a0b74bbf6c2d15412eedb04100000000000000000000803f000080bf0000000000000000000080bfa0b7cb3f0000803fa0b74b3f6c2d15412eedb04100000000000000000000803f000080bf0000000000000000000080bf000000000000803fa0b74b3f6c2d15c12eedb0410000803f000000000000000000000000000000000000803f000080bf2eed30426c2d8dc1a0b74b3f6c2d15c12eedb0c10000803f000000000000000000000000000000000000803f000080bf000000006c2d8dc1a0b74b3f6c2d15412eedb0410000803f000000000000000000000000000000000000803f000080bf2eed30420000803fa0b74b3f6c2d15412eedb0c10000803f000000000000000000000000000000000000803f000080bf000000000000803fa0b74b3f6c2d15c12eedb0c10000000000000000000080bf0000803f0000000000000000000080bfa0b7cb3f6c2d8dc1a0b74bbf6c2d15c12eedb0c10000000000000000000080bf0000803f0000000000000000000080bf000000006c2d8dc1a0b74b3f6c2d15412eedb0c10000000000000000000080bf0000803f0000000000000000000080bfa0b7cb3f0000803fa0b74bbf6c2d15412eedb0c10000000000000000000080bf0000803f0000000000000000000080bf000000000000803fa0b74bbf6c2d15c12eedb0c1000080bf00000000000000000000000000000000000080bf000080bf2eed30426c2d8dc1a0b74bbf6c2d15c12eedb041000080bf00000000000000000000000000000000000080bf000080bf000000006c2d8dc1a0b74bbf6c2d15412eedb0c1000080bf00000000000000000000000000000000000080bf000080bf2eed30420000803fa0b74bbf6c2d15412eedb041000080bf00000000000000000000000000000000000080bf000080bf000000000000803fa0b74bbf6c2d15412eedb041000000000000803f000000000000803f0000000000000000000080bf000000000000803fa0b74b3f6c2d15412eedb041000000000000803f000000000000803f0000000000000000000080bfa0b7cb3f0000803fa0b74bbf6c2d15412eedb0c1000000000000803f000000000000803f0000000000000000000080bf000000002eed2cc2a0b74b3f6c2d15412eedb0c1000000000000803f000000000000803f0000000000000000000080bfa0b7cb3f2eed2cc2a0b74bbf6c2d15c12eedb0c100000000000080bf00000000000080bf0000000000000000000080bfa0b7cb3f2eed2cc2a0b74b3f6c2d15c12eedb0c100000000000080bf00000000000080bf0000000000000000000080bf000000002eed2cc2a0b74bbf6c2d15c12eedb04100000000000080bf00000000000080bf0000000000000000000080bfa0b7cb3f0000803fa0b74b3f6c2d15c12eedb04100000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.79577065, y: 9.323589, z: 22.11581}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &857198944
 GameObject:
   m_ObjectHideFlags: 0
@@ -5279,6 +6111,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 643999441}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1628288447}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -5302,18 +6146,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Start
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 643999441}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 585384885}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -5409,6 +6241,184 @@ Transform:
   - {fileID: 466397142}
   m_Father: {fileID: 1744900849}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &898278613
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2672
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 13.664721, y: 9.085767, z: 1.1662331}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: b2a25ac14d5f11c12047953f00000000000000000000803f000080bf0000000000000000000080bfb2a2da414d5f89c1b2a25a414d5f11c12047953f00000000000000000000803f000080bf0000000000000000000080bf000000004d5f89c1b2a25ac14d5f11412047953f00000000000000000000803f000080bf0000000000000000000080bfb2a2da410000803fb2a25a414d5f11412047953f00000000000000000000803f000080bf0000000000000000000080bf000000000000803fb2a25a414d5f11c12047953f0000803f000000000000000000000000000000000000803f000080bf204715404d5f89c1b2a25a414d5f11c1204795bf0000803f000000000000000000000000000000000000803f000080bf000000004d5f89c1b2a25a414d5f11412047953f0000803f000000000000000000000000000000000000803f000080bf204715400000803fb2a25a414d5f1141204795bf0000803f000000000000000000000000000000000000803f000080bf000000000000803fb2a25a414d5f11c1204795bf0000000000000000000080bf0000803f0000000000000000000080bfb2a2da414d5f89c1b2a25ac14d5f11c1204795bf0000000000000000000080bf0000803f0000000000000000000080bf000000004d5f89c1b2a25a414d5f1141204795bf0000000000000000000080bf0000803f0000000000000000000080bfb2a2da410000803fb2a25ac14d5f1141204795bf0000000000000000000080bf0000803f0000000000000000000080bf000000000000803fb2a25ac14d5f11c1204795bf000080bf00000000000000000000000000000000000080bf000080bf204715404d5f89c1b2a25ac14d5f11c12047953f000080bf00000000000000000000000000000000000080bf000080bf000000004d5f89c1b2a25ac14d5f1141204795bf000080bf00000000000000000000000000000000000080bf000080bf204715400000803fb2a25ac14d5f11412047953f000080bf00000000000000000000000000000000000080bf000080bf000000000000803fb2a25ac14d5f11412047953f000000000000803f000000000000803f0000000000000000000080bf000000000000803fb2a25a414d5f11412047953f000000000000803f000000000000803f0000000000000000000080bfb2a2da410000803fb2a25ac14d5f1141204795bf000000000000803f000000000000803f0000000000000000000080bf00000000408eaabfb2a25a414d5f1141204795bf000000000000803f000000000000803f0000000000000000000080bfb2a2da41408eaabfb2a25ac14d5f11c1204795bf00000000000080bf00000000000080bf0000000000000000000080bfb2a2da41408eaabfb2a25a414d5f11c1204795bf00000000000080bf00000000000080bf0000000000000000000080bf00000000408eaabfb2a25ac14d5f11c12047953f00000000000080bf00000000000080bf0000000000000000000080bfb2a2da410000803fb2a25a414d5f11c12047953f00000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 13.664721, y: 9.085767, z: 1.1662331}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &911642821
 GameObject:
   m_ObjectHideFlags: 0
@@ -6011,7 +7021,7 @@ PrefabInstance:
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d,
         type: 3}
       propertyPath: autoStart
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d,
         type: 3}
@@ -9489,134 +10499,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1675767968}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1223295972
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1615907435}
-    m_Modifications:
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506304381781564400, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_Name
-      value: Inventory
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506304381781564400, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6832227124703764393, guid: fa6868ee95c274c9180e91739967ec61, type: 3}
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8506304381781564400, guid: fa6868ee95c274c9180e91739967ec61,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2016889363}
-  m_SourcePrefab: {fileID: 100100000, guid: fa6868ee95c274c9180e91739967ec61, type: 3}
 --- !u!95 &1232679475 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3565420069463344363, guid: 42786792db9584cf7ab336e93cea908b,
@@ -9940,6 +10822,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!1 &1293342051
 GameObject:
   m_ObjectHideFlags: 0
@@ -10152,6 +11037,184 @@ Transform:
   - {fileID: 422339115}
   m_Father: {fileID: 1851943296}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &1323585320
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2620
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 34.51391, y: 15.902496, z: 0.93566895}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 3e0e0ac2a0707ec100886f3f00000000000000000000803f000080bf0000000000000000000080bf3e0e8a42a070f6c13e0e0a42a0707ec100886f3f00000000000000000000803f000080bf0000000000000000000080bf00000000a070f6c13e0e0ac2a0707e4100886f3f00000000000000000000803f000080bf0000000000000000000080bf3e0e8a420000803f3e0e0a42a0707e4100886f3f00000000000000000000803f000080bf0000000000000000000080bf000000000000803f3e0e0a42a0707ec100886f3f0000803f000000000000000000000000000000000000803f000080bf0088ef3fa070f6c13e0e0a42a0707ec100886fbf0000803f000000000000000000000000000000000000803f000080bf00000000a070f6c13e0e0a42a0707e4100886f3f0000803f000000000000000000000000000000000000803f000080bf0088ef3f0000803f3e0e0a42a0707e4100886fbf0000803f000000000000000000000000000000000000803f000080bf000000000000803f3e0e0a42a0707ec100886fbf0000000000000000000080bf0000803f0000000000000000000080bf3e0e8a42a070f6c13e0e0ac2a0707ec100886fbf0000000000000000000080bf0000803f0000000000000000000080bf00000000a070f6c13e0e0a42a0707e4100886fbf0000000000000000000080bf0000803f0000000000000000000080bf3e0e8a420000803f3e0e0ac2a0707e4100886fbf0000000000000000000080bf0000803f0000000000000000000080bf000000000000803f3e0e0ac2a0707ec100886fbf000080bf00000000000000000000000000000000000080bf000080bf0088ef3fa070f6c13e0e0ac2a0707ec100886f3f000080bf00000000000000000000000000000000000080bf000080bf00000000a070f6c13e0e0ac2a0707e4100886fbf000080bf00000000000000000000000000000000000080bf000080bf0088ef3f0000803f3e0e0ac2a0707e4100886f3f000080bf00000000000000000000000000000000000080bf000080bf000000000000803f3e0e0ac2a0707e4100886f3f000000000000803f000000000000803f0000000000000000000080bf000000000000803f3e0e0a42a0707e4100886f3f000000000000803f000000000000803f0000000000000000000080bf3e0e8a420000803f3e0e0ac2a0707e4100886fbf000000000000803f000000000000803f0000000000000000000080bf0000000000105fbf3e0e0a42a0707e4100886fbf000000000000803f000000000000803f0000000000000000000080bf3e0e8a4200105fbf3e0e0ac2a0707ec100886fbf00000000000080bf00000000000080bf0000000000000000000080bf3e0e8a4200105fbf3e0e0a42a0707ec100886fbf00000000000080bf00000000000080bf0000000000000000000080bf0000000000105fbf3e0e0ac2a0707ec100886f3f00000000000080bf00000000000080bf0000000000000000000080bf3e0e8a420000803f3e0e0a42a0707ec100886f3f00000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 34.51391, y: 15.902496, z: 0.93566895}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &1327290104
 GameObject:
   m_ObjectHideFlags: 0
@@ -10215,6 +11278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &1327290108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10529,6 +11595,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &1369670469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11168,6 +12237,279 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 941886226}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1458222056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 169410622631441923, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 803149552}
+    - target: {fileID: 432644265610865694, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 424699379}
+    - target: {fileID: 457782090407780458, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1323585320}
+    - target: {fileID: 525782150474320745, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1497484308}
+    - target: {fileID: 525782150474320745, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 4543
+      objectReference: {fileID: 0}
+    - target: {fileID: 1110281796575382603, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 433707366}
+    - target: {fileID: 2091526154144844239, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 830489952}
+    - target: {fileID: 2144912330488745551, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1787065578}
+    - target: {fileID: 2150633772016605128, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1670258911}
+    - target: {fileID: 2418523446308215555, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 898278613}
+    - target: {fileID: 2418523446308215555, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 2021
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523340934346972298, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 855038158}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.702965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752128162971231599, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3064815541981200629, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1323585320}
+    - target: {fileID: 3064815541981200629, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 3212
+      objectReference: {fileID: 0}
+    - target: {fileID: 3266950501972252548, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1787065578}
+    - target: {fileID: 3266950501972252548, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 2547
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501242298940182893, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1497484308}
+    - target: {fileID: 4136685061363727802, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 803149552}
+    - target: {fileID: 4224533868683233704, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 830489952}
+    - target: {fileID: 4335087750080903661, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 433707366}
+    - target: {fileID: 4335087750080903661, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 2547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4425474187557629977, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1323585320}
+    - target: {fileID: 5180266631261580950, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 803149552}
+    - target: {fileID: 5180266631261580950, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 3517
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214955916708237629, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 424699379}
+    - target: {fileID: 5214955916708237629, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 3212
+      objectReference: {fileID: 0}
+    - target: {fileID: 5554700929224181218, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -48.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754211740625964030, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 898278613}
+    - target: {fileID: 5981634974253526294, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 433707366}
+    - target: {fileID: 6231445653307493043, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Name
+      value: parent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6441940271201909204, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 830489952}
+    - target: {fileID: 6441940271201909204, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 2547
+      objectReference: {fileID: 0}
+    - target: {fileID: 7370643839566862754, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 898278613}
+    - target: {fileID: 8085576633105189453, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 855038158}
+    - target: {fileID: 8085576633105189453, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 2547
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105561070571279381, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1670258911}
+    - target: {fileID: 8105561070571279381, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 2021
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253180595755387394, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 424699379}
+    - target: {fileID: 8336874209318183519, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1787065578}
+    - target: {fileID: 8472592768185864535, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1497484308}
+    - target: {fileID: 8617987785316678897, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1670258911}
+    - target: {fileID: 8892323946727196978, guid: a615f567aa310574e845dc68ba88fb41,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 855038158}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a615f567aa310574e845dc68ba88fb41, type: 3}
 --- !u!1 &1461557970
 GameObject:
   m_ObjectHideFlags: 0
@@ -12402,7 +13744,7 @@ PrefabInstance:
         type: 3}
       propertyPath: OnInventoryButton.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2016889363}
+      objectReference: {fileID: 0}
     - target: {fileID: 3427708838436895929, guid: 31c4819cb9b1b41d3aa8c852d12c5587,
         type: 3}
       propertyPath: OnInventoryButton.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -13361,7 +14703,7 @@ PrefabInstance:
     - target: {fileID: 6727140655614195178, guid: 31c4819cb9b1b41d3aa8c852d12c5587,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7040609147856512597, guid: 31c4819cb9b1b41d3aa8c852d12c5587,
         type: 3}
@@ -13894,6 +15236,184 @@ Transform:
   - {fileID: 1419239597}
   m_Father: {fileID: 1063514107}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &1497484308
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2634
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 1.630188, y: 16.878012, z: 60.701492}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: 00aad0bf2b0687c154ce724200000000000000000000803f000080bf0000000000000000000080bf00aa50402b0603c200aad03f2b0687c154ce724200000000000000000000803f000080bf0000000000000000000080bf000000002b0603c200aad0bf2b06874154ce724200000000000000000000803f000080bf0000000000000000000080bf00aa50400000803f00aad03f2b06874154ce724200000000000000000000803f000080bf0000000000000000000080bf000000000000803f00aad03f2b0687c154ce72420000803f000000000000000000000000000000000000803f000080bf54cef2422b0603c200aad03f2b0687c154ce72c20000803f000000000000000000000000000000000000803f000080bf000000002b0603c200aad03f2b06874154ce72420000803f000000000000000000000000000000000000803f000080bf54cef2420000803f00aad03f2b06874154ce72c20000803f000000000000000000000000000000000000803f000080bf000000000000803f00aad03f2b0687c154ce72c20000000000000000000080bf0000803f0000000000000000000080bf00aa50402b0603c200aad0bf2b0687c154ce72c20000000000000000000080bf0000803f0000000000000000000080bf000000002b0603c200aad03f2b06874154ce72c20000000000000000000080bf0000803f0000000000000000000080bf00aa50400000803f00aad0bf2b06874154ce72c20000000000000000000080bf0000803f0000000000000000000080bf000000000000803f00aad0bf2b0687c154ce72c2000080bf00000000000000000000000000000000000080bf000080bf54cef2422b0603c200aad0bf2b0687c154ce7242000080bf00000000000000000000000000000000000080bf000080bf000000002b0603c200aad0bf2b06874154ce72c2000080bf00000000000000000000000000000000000080bf000080bf54cef2420000803f00aad0bf2b06874154ce7242000080bf00000000000000000000000000000000000080bf000080bf000000000000803f00aad0bf2b06874154ce7242000000000000803f000000000000803f0000000000000000000080bf000000000000803f00aad03f2b06874154ce7242000000000000803f000000000000803f0000000000000000000080bf00aa50400000803f00aad0bf2b06874154ce72c2000000000000803f000000000000803f0000000000000000000080bf0000000054cef0c200aad03f2b06874154ce72c2000000000000803f000000000000803f0000000000000000000080bf00aa504054cef0c200aad0bf2b0687c154ce72c200000000000080bf00000000000080bf0000000000000000000080bf00aa504054cef0c200aad03f2b0687c154ce72c200000000000080bf00000000000080bf0000000000000000000080bf0000000054cef0c200aad0bf2b0687c154ce724200000000000080bf00000000000080bf0000000000000000000080bf00aa50400000803f00aad03f2b0687c154ce724200000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 1.630188, y: 16.878012, z: 60.701492}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &1501505541
 GameObject:
   m_ObjectHideFlags: 0
@@ -13942,6 +15462,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &1501505544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14569,6 +16092,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!1 &1577769907
 GameObject:
   m_ObjectHideFlags: 0
@@ -14946,7 +16472,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2016889364}
   - {fileID: 810995163}
   - {fileID: 1609722693}
   - {fileID: 1671958491}
@@ -15074,6 +16599,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &1628288478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15242,6 +16770,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &1642815118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15460,6 +16991,184 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 4f931711549de4ec3b5c1b97062a6c1d, type: 2}
+--- !u!43 &1670258911
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2658
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 13.664721, y: 9.085767, z: 1.1662331}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: b2a25ac14d5f11c12047953f00000000000000000000803f000080bf0000000000000000000080bfb2a2da414d5f89c1b2a25a414d5f11c12047953f00000000000000000000803f000080bf0000000000000000000080bf000000004d5f89c1b2a25ac14d5f11412047953f00000000000000000000803f000080bf0000000000000000000080bfb2a2da410000803fb2a25a414d5f11412047953f00000000000000000000803f000080bf0000000000000000000080bf000000000000803fb2a25a414d5f11c12047953f0000803f000000000000000000000000000000000000803f000080bf204715404d5f89c1b2a25a414d5f11c1204795bf0000803f000000000000000000000000000000000000803f000080bf000000004d5f89c1b2a25a414d5f11412047953f0000803f000000000000000000000000000000000000803f000080bf204715400000803fb2a25a414d5f1141204795bf0000803f000000000000000000000000000000000000803f000080bf000000000000803fb2a25a414d5f11c1204795bf0000000000000000000080bf0000803f0000000000000000000080bfb2a2da414d5f89c1b2a25ac14d5f11c1204795bf0000000000000000000080bf0000803f0000000000000000000080bf000000004d5f89c1b2a25a414d5f1141204795bf0000000000000000000080bf0000803f0000000000000000000080bfb2a2da410000803fb2a25ac14d5f1141204795bf0000000000000000000080bf0000803f0000000000000000000080bf000000000000803fb2a25ac14d5f11c1204795bf000080bf00000000000000000000000000000000000080bf000080bf204715404d5f89c1b2a25ac14d5f11c12047953f000080bf00000000000000000000000000000000000080bf000080bf000000004d5f89c1b2a25ac14d5f1141204795bf000080bf00000000000000000000000000000000000080bf000080bf204715400000803fb2a25ac14d5f11412047953f000080bf00000000000000000000000000000000000080bf000080bf000000000000803fb2a25ac14d5f11412047953f000000000000803f000000000000803f0000000000000000000080bf000000000000803fb2a25a414d5f11412047953f000000000000803f000000000000803f0000000000000000000080bfb2a2da410000803fb2a25ac14d5f1141204795bf000000000000803f000000000000803f0000000000000000000080bf00000000408eaabfb2a25a414d5f1141204795bf000000000000803f000000000000803f0000000000000000000080bfb2a2da41408eaabfb2a25ac14d5f11c1204795bf00000000000080bf00000000000080bf0000000000000000000080bfb2a2da41408eaabfb2a25a414d5f11c1204795bf00000000000080bf00000000000080bf0000000000000000000080bf00000000408eaabfb2a25ac14d5f11c12047953f00000000000080bf00000000000080bf0000000000000000000080bfb2a2da410000803fb2a25a414d5f11c12047953f00000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 13.664721, y: 9.085767, z: 1.1662331}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!4 &1671958491 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9189328179256122668, guid: aedc29c150838410b8bb96f9e21f808a,
@@ -15561,6 +17270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &1678239733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16089,112 +17801,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0027840994, y: 0.32931727, z: 0.022792459}
     m_Extent: {x: 0.09448545, y: 0.11216265, z: 0.13828427}
   m_DirtyAABB: 0
---- !u!1 &1741807668
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1741807671}
-  - component: {fileID: 1741807670}
-  - component: {fileID: 1741807669}
-  - component: {fileID: 1741807672}
-  m_Layer: 0
-  m_Name: Terrain_(-232.00, 0.00, -232.00)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!154 &1741807669
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741807668}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_TerrainData: {fileID: 15600000, guid: fa2fcf8697c3069449f4c0ff75dc9a40, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &1741807670
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741807668}
-  m_Enabled: 1
-  serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: fa2fcf8697c3069449f4c0ff75dc9a40, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMinimumLODSimplification: 0
-  m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 0
-  m_DrawTreesAndFoliage: 1
-  m_StaticShadowCaster: 0
-  m_IgnoreQualitySettings: 0
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 1
-  m_ReceiveGI: 1
-  m_ScaleInLightmap: 0.128
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_RenderingLayerMask: 1
-  m_AllowAutoConnect: 1
-  m_EnableHeightmapRayTracing: 1
-  m_EnableTreesAndDetailsRayTracing: 0
-  m_TreeMotionVectorModeOverride: 3
---- !u!4 &1741807671
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741807668}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -232, y: 0, z: -232}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1741807672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741807668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
 --- !u!1 &1744900848
 GameObject:
   m_ObjectHideFlags: 0
@@ -16519,7 +18125,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1759807584
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16831,6 +18437,184 @@ Transform:
   - {fileID: 499283740}
   m_Father: {fileID: 1889488041}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &1787065578
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-2818
+  serializedVersion: 12
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 36
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 24
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.79577065, y: 9.323589, z: 22.11581}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 24
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1152
+    _typelessdata: a0b74bbf6c2d15c12eedb04100000000000000000000803f000080bf0000000000000000000080bfa0b7cb3f6c2d8dc1a0b74b3f6c2d15c12eedb04100000000000000000000803f000080bf0000000000000000000080bf000000006c2d8dc1a0b74bbf6c2d15412eedb04100000000000000000000803f000080bf0000000000000000000080bfa0b7cb3f0000803fa0b74b3f6c2d15412eedb04100000000000000000000803f000080bf0000000000000000000080bf000000000000803fa0b74b3f6c2d15c12eedb0410000803f000000000000000000000000000000000000803f000080bf2eed30426c2d8dc1a0b74b3f6c2d15c12eedb0c10000803f000000000000000000000000000000000000803f000080bf000000006c2d8dc1a0b74b3f6c2d15412eedb0410000803f000000000000000000000000000000000000803f000080bf2eed30420000803fa0b74b3f6c2d15412eedb0c10000803f000000000000000000000000000000000000803f000080bf000000000000803fa0b74b3f6c2d15c12eedb0c10000000000000000000080bf0000803f0000000000000000000080bfa0b7cb3f6c2d8dc1a0b74bbf6c2d15c12eedb0c10000000000000000000080bf0000803f0000000000000000000080bf000000006c2d8dc1a0b74b3f6c2d15412eedb0c10000000000000000000080bf0000803f0000000000000000000080bfa0b7cb3f0000803fa0b74bbf6c2d15412eedb0c10000000000000000000080bf0000803f0000000000000000000080bf000000000000803fa0b74bbf6c2d15c12eedb0c1000080bf00000000000000000000000000000000000080bf000080bf2eed30426c2d8dc1a0b74bbf6c2d15c12eedb041000080bf00000000000000000000000000000000000080bf000080bf000000006c2d8dc1a0b74bbf6c2d15412eedb0c1000080bf00000000000000000000000000000000000080bf000080bf2eed30420000803fa0b74bbf6c2d15412eedb041000080bf00000000000000000000000000000000000080bf000080bf000000000000803fa0b74bbf6c2d15412eedb041000000000000803f000000000000803f0000000000000000000080bf000000000000803fa0b74b3f6c2d15412eedb041000000000000803f000000000000803f0000000000000000000080bfa0b7cb3f0000803fa0b74bbf6c2d15412eedb0c1000000000000803f000000000000803f0000000000000000000080bf000000002eed2cc2a0b74b3f6c2d15412eedb0c1000000000000803f000000000000803f0000000000000000000080bfa0b7cb3f2eed2cc2a0b74bbf6c2d15c12eedb0c100000000000080bf00000000000080bf0000000000000000000080bfa0b7cb3f2eed2cc2a0b74b3f6c2d15c12eedb0c100000000000080bf00000000000080bf0000000000000000000080bf000000002eed2cc2a0b74bbf6c2d15c12eedb04100000000000080bf00000000000080bf0000000000000000000080bfa0b7cb3f0000803fa0b74b3f6c2d15c12eedb04100000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.79577065, y: 9.323589, z: 22.11581}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  'm_MeshMetrics[0]': 1
+  'm_MeshMetrics[1]': 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+  m_MeshLodInfo:
+    serializedVersion: 2
+    m_LodSelectionCurve:
+      serializedVersion: 1
+      m_LodSlope: 0
+      m_LodBias: 0
+    m_NumLevels: 1
+    m_SubMeshes:
+    - serializedVersion: 2
+      m_Levels:
+      - serializedVersion: 1
+        m_IndexStart: 0
+        m_IndexCount: 0
 --- !u!1 &1788997316
 GameObject:
   m_ObjectHideFlags: 0
@@ -17713,2511 +19497,63 @@ MonoBehaviour:
   yarnScript: {fileID: -8253061345870894857, guid: 428500913ff4341c3b70aaf64e730b4d,
     type: 3}
   lineEventMappings:
-  - lineID: line:0a59a3d
-    description: narration
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0c92483
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1907924701
-        Data2: 1330963809
-        Data3: 300977559
-        Data4: -766907963
-      Path: event:/Dialogue/EN/EN_Jackie_line0c92483
-    fmodEventALT:
-      Guid:
-        Data1: 1649205402
-        Data2: 1128687859
-        Data3: -634380101
-        Data4: -65981112
-      Path: event:/Dialogue/ALT/0c92483
-  - lineID: line:0cb76b6
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1286458632
-        Data2: 1074785694
-        Data3: 1448003227
-        Data4: 1590145181
-      Path: event:/Dialogue/EN/0fc1a3d
-    fmodEventALT:
-      Guid:
-        Data1: -1828587621
-        Data2: 1199008246
-        Data3: 205628546
-        Data4: 2123837791
-      Path: event:/Dialogue/ALT/0913b6b
-  - lineID: line:0109ad5
-    description: silence
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0ab0551
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 374177632
-        Data2: 1171776749
-        Data3: 1258731173
-        Data4: -468678905
-      Path: event:/Dialogue/EN/EN_Jackie_line0ab0551
-    fmodEventALT:
-      Guid:
-        Data1: 1772811351
-        Data2: 1335687084
-        Data3: 1056315325
-        Data4: 1880619489
-      Path: event:/Dialogue/ALT/0ab0551
-  - lineID: line:0ee2251
-    description: more silence
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:08c08e9
-    description: more cilence
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0091a3c
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1861549462
-        Data2: 1172724333
-        Data3: 398366101
-        Data4: -189206162
-      Path: event:/Dialogue/EN/line0091a3c
-    fmodEventALT:
-      Guid:
-        Data1: -1492711556
-        Data2: 1188010901
-        Data3: -1925133128
-        Data4: 1567309101
-      Path: event:/Dialogue/ALT/0091a3c
-  - lineID: line:0af5d17
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1178828101
-        Data2: 1119382996
-        Data3: 357911440
-        Data4: -131603165
-      Path: event:/Dialogue/EN/EN_Jackie_line02f64f4
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0178069
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -619171380
-        Data2: 1171619709
-        Data3: -891581310
-        Data4: -1552536750
-      Path: event:/Dialogue/EN/EN_Jackie_line0178069
-    fmodEventALT:
-      Guid:
-        Data1: -813579927
-        Data2: 1177861623
-        Data3: -1860432755
-        Data4: 41425478
-      Path: event:/Dialogue/ALT/0178069
-  - lineID: line:0b22785
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -94693852
-        Data2: 1327970110
-        Data3: 1112783248
-        Data4: -1348175491
-      Path: event:/Dialogue/EN/EN_Jackie_line0b22785
-    fmodEventALT:
-      Guid:
-        Data1: -619634043
-        Data2: 1296758216
-        Data3: 904615056
-        Data4: -1623950360
-      Path: event:/Dialogue/ALT/0b22785
-  - lineID: line:0acfbcb
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1739656371
-        Data2: 1123483123
-        Data3: -1720819557
-        Data4: -445577672
-      Path: event:/Dialogue/EN/0acfbcb
-    fmodEventALT:
-      Guid:
-        Data1: -1876605339
-        Data2: 1097358181
-        Data3: -705445194
-        Data4: 1759287336
-      Path: event:/Dialogue/ALT/0acfbcb
-  - lineID: line:02c75f9
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1952186840
-        Data2: 1084635265
-        Data3: -888351345
-        Data4: -860797170
-      Path: event:/Dialogue/EN/EN_Jackie_line02c75f9
-    fmodEventALT:
-      Guid:
-        Data1: -1922939927
-        Data2: 1229010047
-        Data3: -1452471106
-        Data4: -267853189
-      Path: event:/Dialogue/ALT/02c75f9
-  - lineID: line:03e31e7
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1781948522
-        Data2: 1139942178
-        Data3: -307894353
-        Data4: 837065730
-      Path: event:/Dialogue/EN/03e31e7
-    fmodEventALT:
-      Guid:
-        Data1: 1692167091
-        Data2: 1264688600
-        Data3: -575611205
-        Data4: -1944696902
-      Path: event:/Dialogue/ALT/03e31e7
-  - lineID: line:06fc03e
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1178828101
-        Data2: 1119382996
-        Data3: 357911440
-        Data4: -131603165
-      Path: event:/Dialogue/EN/EN_Jackie_line02f64f4
-    fmodEventALT:
-      Guid:
-        Data1: 1252657887
-        Data2: 1222768709
-        Data3: -2044136513
-        Data4: 846976176
-      Path: event:/Dialogue/ALT/06fc03e
-  - lineID: line:05d80b9
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -619171380
-        Data2: 1171619709
-        Data3: -891581310
-        Data4: -1552536750
-      Path: event:/Dialogue/EN/EN_Jackie_line0178069
-    fmodEventALT:
-      Guid:
-        Data1: 161118046
-        Data2: 1088010887
-        Data3: -1215977088
-        Data4: -708875850
-      Path: event:/Dialogue/ALT/05d80b9
-  - lineID: line:04d99a8
-    description: door is locket repeat
-    fmodEventEN:
-      Guid:
-        Data1: -94693852
-        Data2: 1327970110
-        Data3: 1112783248
-        Data4: -1348175491
-      Path: event:/Dialogue/EN/EN_Jackie_line0b22785
-    fmodEventALT:
-      Guid:
-        Data1: 769961539
-        Data2: 1319217858
-        Data3: -1767423051
-        Data4: 949824596
-      Path: event:/Dialogue/ALT/04d99a8
-  - lineID: line:0663a47
-    description: what about the others
-    fmodEventEN:
-      Guid:
-        Data1: 424528397
-        Data2: 1257694461
-        Data3: 388316339
-        Data4: -270369524
-      Path: event:/Dialogue/EN/0663a47
-    fmodEventALT:
-      Guid:
-        Data1: -2006558844
-        Data2: 1292296571
-        Data3: 2042157737
-        Data4: 715349848
-      Path: event:/Dialogue/ALT/0663a47
-  - lineID: line:0e02ec5
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -503068100
-        Data2: 1240042426
-        Data3: 976121525
-        Data4: 1627893446
-      Path: event:/Dialogue/EN/EN_Jackie_line0e02ec5
-    fmodEventALT:
-      Guid:
-        Data1: -745835396
-        Data2: 1323507426
-        Data3: -2099660380
-        Data4: -407190107
-      Path: event:/Dialogue/ALT/0e02ec5
-  - lineID: line:0ba1247
-    description: as for the older one
-    fmodEventEN:
-      Guid:
-        Data1: -1124010643
-        Data2: 1271757798
-        Data3: 1132103812
-        Data4: -1626393869
-      Path: event:/Dialogue/EN/EN_Jackie_line0083af7
-    fmodEventALT:
-      Guid:
-        Data1: 376184407
-        Data2: 1098221342
-        Data3: 1806483360
-        Data4: 1578348282
-      Path: event:/Dialogue/ALT/0ba1247
-  - lineID: line:08dc9dc
-    description: who am i
-    fmodEventEN:
-      Guid:
-        Data1: 1790253921
-        Data2: 1235505906
-        Data3: -533148779
-        Data4: -175116069
-      Path: event:/Dialogue/EN/061a225
-    fmodEventALT:
-      Guid:
-        Data1: 139505607
-        Data2: 1150349438
-        Data3: 1039188910
-        Data4: 1335558999
-      Path: event:/Dialogue/ALT/08dc9dc
-  - lineID: line:061a225
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1790253921
-        Data2: 1235505906
-        Data3: -533148779
-        Data4: -175116069
-      Path: event:/Dialogue/EN/061a225
-    fmodEventALT:
-      Guid:
-        Data1: -1627018825
-        Data2: 1192840976
-        Data3: -541944927
-        Data4: 2104438624
-      Path: event:/Dialogue/ALT/061a225
-  - lineID: line:078c777
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 340256562
-        Data2: 1074885434
-        Data3: -1223413584
-        Data4: -1035820995
-      Path: event:/Dialogue/EN/EN_Jackie_line078c777
-    fmodEventALT:
-      Guid:
-        Data1: 515507082
-        Data2: 1268127246
-        Data3: -1006817857
-        Data4: -527425341
-      Path: event:/Dialogue/ALT/078c777
-  - lineID: line:0e1ab72
-    description: what about the others
-    fmodEventEN:
-      Guid:
-        Data1: -185421856
-        Data2: 1308497379
-        Data3: 1723455411
-        Data4: 1873723546
-      Path: event:/Dialogue/EN/0ad72e2
-    fmodEventALT:
-      Guid:
-        Data1: -1518924601
-        Data2: 1215808245
-        Data3: -165401444
-        Data4: 1780885538
-      Path: event:/Dialogue/ALT/0e1ab72
-  - lineID: line:0d0223c
-    description: guess the younger guy
-    fmodEventEN:
-      Guid:
-        Data1: -503068100
-        Data2: 1240042426
-        Data3: 976121525
-        Data4: 1627893446
-      Path: event:/Dialogue/EN/EN_Jackie_line0e02ec5
-    fmodEventALT:
-      Guid:
-        Data1: -1027225623
-        Data2: 1270218536
-        Data3: -1925680715
-        Data4: -1083548030
-      Path: event:/Dialogue/ALT/0d0223c
-  - lineID: line:0083af7
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1124010643
-        Data2: 1271757798
-        Data3: 1132103812
-        Data4: -1626393869
-      Path: event:/Dialogue/EN/EN_Jackie_line0083af7
-    fmodEventALT:
-      Guid:
-        Data1: 810709801
-        Data2: 1267530717
-        Data3: -1894552677
-        Data4: 1895955694
-      Path: event:/Dialogue/ALT/0083af7
-  - lineID: line:072651a
-    description: where are we repeat
-    fmodEventEN:
-      Guid:
-        Data1: -1739656371
-        Data2: 1123483123
-        Data3: -1720819557
-        Data4: -445577672
-      Path: event:/Dialogue/EN/0acfbcb
-    fmodEventALT:
-      Guid:
-        Data1: -1845434265
-        Data2: 1265188149
-        Data3: 1482401673
-        Data4: -656968884
-      Path: event:/Dialogue/ALT/072651a
-  - lineID: line:08a31c1
-    description: bunker repeat
-    fmodEventEN:
-      Guid:
-        Data1: -1952186840
-        Data2: 1084635265
-        Data3: -888351345
-        Data4: -860797170
-      Path: event:/Dialogue/EN/EN_Jackie_line02c75f9
-    fmodEventALT:
-      Guid:
-        Data1: 805913153
-        Data2: 1136723382
-        Data3: -2090638451
-        Data4: -1225722714
-      Path: event:/Dialogue/ALT/08a31c1
-  - lineID: line:08840cf
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 265085234
-        Data2: 1123703679
-        Data3: -418499394
-        Data4: 519827844
-      Path: event:/Dialogue/EN/EN_Viktor_line08840cf
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:06f1667
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -695556711
-        Data2: 1174104223
-        Data3: 2042505649
-        Data4: -1538060916
-      Path: event:/Dialogue/EN/EN_Jackie_line06f1667
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:023ce7c
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 293926146
-        Data2: 1092217157
-        Data3: 1938207647
-        Data4: 476578292
-      Path: event:/Dialogue/EN/EN_Viktor_line0a59a3d
-    fmodEventALT:
-      Guid:
-        Data1: 1278434735
-        Data2: 1315554966
-        Data3: 2122404749
-        Data4: -1419395700
-      Path: event:/Dialogue/ALT/wie de hell zijn jullie
-  - lineID: line:042325e
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1028302684
-        Data2: 1256171745
-        Data3: 2000855742
-        Data4: 1840098215
-      Path: event:/Dialogue/EN/EN_Cas_line042325e
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:096fd81
-    description: option line?
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0377832
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1214531769
-        Data2: 1196598006
-        Data3: -1414150272
-        Data4: -433459208
-      Path: event:/Dialogue/EN/0377832
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:03dbc90
-    description: option line
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0ecd675
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 826785332
-        Data2: 1273518791
-        Data3: 1303528841
-        Data4: -872765128
-      Path: event:/Dialogue/EN/0ecd675
-    fmodEventALT:
-      Guid:
-        Data1: -1710343392
-        Data2: 1158067801
-        Data3: 134403002
-        Data4: -917624803
-      Path: event:/Dialogue/ALT/0ecd675
-  - lineID: line:0a08b90
-    description: help the cod option
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:02e2167
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 800918902
-        Data2: 1250627028
-        Data3: -1806536042
-        Data4: 1862495825
-      Path: event:/Dialogue/EN/02e2167
-    fmodEventALT:
-      Guid:
-        Data1: 549335441
-        Data2: 1241560254
-        Data3: -558853492
-        Data4: -358693795
-      Path: event:/Dialogue/ALT/02e2167
-  - lineID: line:0a62fd8
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -319518913
-        Data2: 1334262700
-        Data3: 30996358
-        Data4: 245820430
-      Path: event:/Dialogue/EN/EN_Cas_line0a62fd8
-    fmodEventALT:
-      Guid:
-        Data1: -773330505
-        Data2: 1320234094
-        Data3: 1947478416
-        Data4: -2027277394
-      Path: event:/Dialogue/ALT/0a62fd8
-  - lineID: line:02bbada
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1367363684
-        Data2: 1238077782
-        Data3: -1699832134
-        Data4: -541977215
-      Path: event:/Dialogue/EN/EN_Viktor_02bbada
-    fmodEventALT:
-      Guid:
-        Data1: 306495477
-        Data2: 1293154516
-        Data3: -1731809601
-        Data4: -1663556513
-      Path: event:/Dialogue/ALT/1 (35)02bbada
-  - lineID: line:0ca11ac
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 826785332
-        Data2: 1273518791
-        Data3: 1303528841
-        Data4: -872765128
-      Path: event:/Dialogue/EN/0ecd675
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0f5f05e
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1190135099
-        Data2: 1168518439
-        Data3: 178487975
-        Data4: -876446395
-      Path: event:/Dialogue/EN/EN_Jackie_line0f5f05e
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0c98097
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1085831078
-        Data2: 1260698255
-        Data3: -1669761604
-        Data4: 1873884648
-      Path: event:/Dialogue/EN/EN_Cas_line0c98097
-    fmodEventALT:
-      Guid:
-        Data1: -660163550
-        Data2: 1180442482
-        Data3: -1314050383
-        Data4: 1468814058
-      Path: event:/Dialogue/ALT/0c98097
-  - lineID: line:0215e69
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1392517677
-        Data2: 1156004063
-        Data3: 963400617
-        Data4: 865439691
-      Path: event:/SFX/ribhavagrawal-metal-beaten-sfx-230501
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0606097
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1312077045
-        Data2: 1137488890
-        Data3: -1887755391
-        Data4: -798145662
-      Path: event:/Dialogue/EN/EN_Cas_what do you think your doing
-    fmodEventALT:
-      Guid:
-        Data1: -450859778
-        Data2: 1227615673
-        Data3: -738424151
-        Data4: -1505885944
-      Path: event:/Dialogue/ALT/0606097
-  - lineID: line:01e3ddc
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 56281201
-        Data2: 1268537579
-        Data3: -776347764
-        Data4: 1856316479
-      Path: event:/Dialogue/EN/EN_Viktor_line01e3ddc
-    fmodEventALT:
-      Guid:
-        Data1: -1823900370
-        Data2: 1337620257
-        Data3: -1486676849
-        Data4: -1939824003
-      Path: event:/Dialogue/ALT/01e3ddc
-  - lineID: line:0b723d1
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1188006668
-        Data2: 1270697449
-        Data3: -353465982
-        Data4: -250321377
-      Path: event:/Dialogue/EN/EN_Cas_line0b723d1
-    fmodEventALT:
-      Guid:
-        Data1: 1526304459
-        Data2: 1335675203
-        Data3: 1412234936
-        Data4: -182770744
-      Path: event:/Dialogue/ALT/0b723d1
-  - lineID: line:063bdf9
-    description: remain quiet choice
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0371756
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -526221346
-        Data2: 1260345925
-        Data3: -2128289900
-        Data4: 28693600
-      Path: event:/Dialogue/EN/EN_Viktor_line0371756
-    fmodEventALT:
-      Guid:
-        Data1: -111874011
-        Data2: 1308450001
-        Data3: -1844817002
-        Data4: 927725265
-      Path: event:/Dialogue/ALT/0371756
-  - lineID: line:0913b6b
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1584500271
-        Data2: 1214971959
-        Data3: -540408164
-        Data4: 1700723702
-      Path: event:/Dialogue/EN/EN_Jackie_line0913b6b
-    fmodEventALT:
-      Guid:
-        Data1: -1828587621
-        Data2: 1199008246
-        Data3: 205628546
-        Data4: 2123837791
-      Path: event:/Dialogue/ALT/0913b6b
-  - lineID: line:02411ee
-    description: repeat do you have any better ideas
-    fmodEventEN:
-      Guid:
-        Data1: 1755044604
-        Data2: 1310643430
-        Data3: -1909579867
-        Data4: 208994589
-      Path: event:/Dialogue/EN/EN_Viktor_line052af3e
-    fmodEventALT:
-      Guid:
-        Data1: 1401710055
-        Data2: 1188988504
-        Data3: -1914591092
-        Data4: -32158067
-      Path: event:/Dialogue/ALT/02411ee
-  - lineID: line:0a09310
-    description: repeat i might be able to find something
-    fmodEventEN:
-      Guid:
-        Data1: 1916235617
-        Data2: 1205299018
-        Data3: 1262216895
-        Data4: -1873631245
-      Path: event:/Dialogue/EN/EN_Jackie_line02eef63
-    fmodEventALT:
-      Guid:
-        Data1: -1693177195
-        Data2: 1287207754
-        Data3: 2110785215
-        Data4: -857994437
-      Path: event:/Dialogue/ALT/0a09310
-  - lineID: line:0e87bcf
-    description: option line
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:017d060
-    description: repeat help kick door
-    fmodEventEN:
-      Guid:
-        Data1: -526221346
-        Data2: 1260345925
-        Data3: -2128289900
-        Data4: 28693600
-      Path: event:/Dialogue/EN/EN_Viktor_line0371756
-    fmodEventALT:
-      Guid:
-        Data1: -1608155874
-        Data2: 1157432364
-        Data3: 1210012573
-        Data4: 493491088
-      Path: event:/Dialogue/ALT/017d060
-  - lineID: line:080c4c6
-    description: repeat pointless
-    fmodEventEN:
-      Guid:
-        Data1: 1584500271
-        Data2: 1214971959
-        Data3: -540408164
-        Data4: 1700723702
-      Path: event:/Dialogue/EN/EN_Jackie_line0913b6b
-    fmodEventALT:
-      Guid:
-        Data1: -2074878752
-        Data2: 1157257435
-        Data3: 712120215
-        Data4: -139892782
-      Path: event:/Dialogue/ALT/080c4c6
-  - lineID: line:052af3e
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1755044604
-        Data2: 1310643430
-        Data3: -1909579867
-        Data4: 208994589
-      Path: event:/Dialogue/EN/EN_Viktor_line052af3e
-    fmodEventALT:
-      Guid:
-        Data1: 929629934
-        Data2: 1178843876
-        Data3: 1252788878
-        Data4: -1413398670
-      Path: event:/Dialogue/ALT/052af3e
-  - lineID: line:02eef63
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1916235617
-        Data2: 1205299018
-        Data3: 1262216895
-        Data4: -1873631245
-      Path: event:/Dialogue/EN/EN_Jackie_line02eef63
-    fmodEventALT:
-      Guid:
-        Data1: 719512259
-        Data2: 1144979932
-        Data3: -1244740690
-        Data4: -1644565825
-      Path: event:/Dialogue/ALT/02eef63
-  - lineID: line:04550db
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -2069556794
-        Data2: 1154980651
-        Data3: 1494781104
-        Data4: -709038793
-      Path: event:/Dialogue/EN/04550db
-    fmodEventALT:
-      Guid:
-        Data1: -13567160
-        Data2: 1207694310
-        Data3: -1140703615
-        Data4: 1558982208
-      Path: event:/Dialogue/ALT/04550db
-  - lineID: line:0dae314
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1755044604
-        Data2: 1310643430
-        Data3: -1909579867
-        Data4: 208994589
-      Path: event:/Dialogue/EN/EN_Viktor_line052af3e
-    fmodEventALT:
-      Guid:
-        Data1: -1528124091
-        Data2: 1316781511
-        Data3: -1484788033
-        Data4: -986409280
-      Path: event:/Dialogue/ALT/0dae314
-  - lineID: line:0e5e759
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1314019541
-        Data2: 1183973040
-        Data3: 84444859
-        Data4: 75015909
-      Path: event:/Dialogue/EN/EN_Viktor_line0e5e759
-    fmodEventALT:
-      Guid:
-        Data1: -545000624
-        Data2: 1162548106
-        Data3: 280953005
-        Data4: -1545879684
-      Path: event:/Dialogue/ALT/0e5e759
-  - lineID: line:019a3cf
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 809243422
-        Data2: 1183385270
-        Data3: 248540093
-        Data4: -743624204
-      Path: event:/Dialogue/EN/EN_Viktor_line019a3cf
-    fmodEventALT:
-      Guid:
-        Data1: 1848624403
-        Data2: 1253490600
-        Data3: 786089641
-        Data4: 664228098
-      Path: event:/Dialogue/ALT/019a3cf
-  - lineID: line:095ffc1
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1967892537
-        Data2: 1327383237
-        Data3: 1080123582
-        Data4: 834997810
-      Path: event:/Dialogue/EN/EN_Viktor_line095ffc1
-    fmodEventALT:
-      Guid:
-        Data1: 469941036
-        Data2: 1134914473
-        Data3: -1237866624
-        Data4: 1696690220
-      Path: event:/Dialogue/ALT/095ffc1
-  - lineID: line:0a53332
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1212794713
-        Data2: 1244103402
-        Data3: 64193194
-        Data4: -594044495
-      Path: event:/Dialogue/EN/EN_Viktor_line0a53332
-    fmodEventALT:
-      Guid:
-        Data1: -277147601
-        Data2: 1210255617
-        Data3: -1647784533
-        Data4: -1840162980
-      Path: event:/Dialogue/ALT/0a53332
-  - lineID: line:08f3f99
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1250270715
-        Data2: 1124867193
-        Data3: -1289733443
-        Data4: 169723408
-      Path: event:/Dialogue/EN/08f3f99
-    fmodEventALT:
-      Guid:
-        Data1: 1250270715
-        Data2: 1124867193
-        Data3: -1289733443
-        Data4: 169723408
-      Path: event:/Dialogue/EN/08f3f99
-  - lineID: line:043111e
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -944197044
-        Data2: 1145437838
-        Data3: -2018858826
-        Data4: -709764834
-      Path: event:/Dialogue/EN/EN_Viktor_line043111e
-    fmodEventALT:
-      Guid:
-        Data1: -1624494622
-        Data2: 1249670138
-        Data3: -147330126
-        Data4: 1777589083
-      Path: event:/Dialogue/ALT/043111e
-  - lineID: line:0892d4f
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 373774874
-        Data2: 1091934664
-        Data3: -214644855
-        Data4: 1632848162
-      Path: event:/Dialogue/EN/0892d4f
-    fmodEventALT:
-      Guid:
-        Data1: 2013731200
-        Data2: 1234822597
-        Data3: -1073896543
-        Data4: -1447709493
-      Path: event:/Dialogue/ALT/0892d4f
-  - lineID: line:0684be1
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 886123067
-        Data2: 1135979105
-        Data3: 1425513891
-        Data4: -1007060032
-      Path: event:/Dialogue/EN/EN_Jackie_line0684be1
-    fmodEventALT:
-      Guid:
-        Data1: 1132996252
-        Data2: 1278405108
-        Data3: 1891846272
-        Data4: -162441831
-      Path: event:/Dialogue/ALT/0684be1
-  - lineID: line:0957877
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1959759948
-        Data2: 1128332217
-        Data3: 517125266
-        Data4: 617672594
-      Path: event:/Dialogue/EN/EN_Jackie_line0957877
-    fmodEventALT:
-      Guid:
-        Data1: 234906351
-        Data2: 1259236695
-        Data3: -2061445230
-        Data4: -1931340200
-      Path: event:/Dialogue/ALT/0957877
-  - lineID: line:006b9b4
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1908772100
-        Data2: 1184392673
-        Data3: -21661566
-        Data4: -1779686908
-      Path: event:/Dialogue/EN/006b9b4
-    fmodEventALT:
-      Guid:
-        Data1: 571019417
-        Data2: 1128356677
-        Data3: -1639694165
-        Data4: -77281145
-      Path: event:/Dialogue/ALT/006b9b4
-  - lineID: line:03203ad
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1430100584
-        Data2: 1149856908
-        Data3: 355113369
-        Data4: -90907373
-      Path: event:/Dialogue/EN/EN_Jackie_line03203ad
-    fmodEventALT:
-      Guid:
-        Data1: -614352926
-        Data2: 1301462981
-        Data3: -1398561132
-        Data4: 1413454287
-      Path: event:/Dialogue/ALT/03203ad
-  - lineID: line:070aa44
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 670248605
-        Data2: 1255110263
-        Data3: -1909012318
-        Data4: 316845303
-      Path: event:/Dialogue/EN/EN_Cas_line070aa44
-    fmodEventALT:
-      Guid:
-        Data1: 1992635429
-        Data2: 1141518753
-        Data3: 799310983
-        Data4: 1735354466
-      Path: event:/Dialogue/ALT/070aa44
-  - lineID: line:0ad0e18
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1530669847
-        Data2: 1193659229
-        Data3: -561130111
-        Data4: 1842533578
-      Path: event:/Dialogue/EN/EN_Jackie_line0ad0e18
-    fmodEventALT:
-      Guid:
-        Data1: 1099055437
-        Data2: 1167070877
-        Data3: 480529319
-        Data4: 611718527
-      Path: event:/Dialogue/ALT/0ad0e18
-  - lineID: line:03818df
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 793978270
-        Data2: 1202420971
-        Data3: 1595381178
-        Data4: 770264518
-      Path: event:/Dialogue/EN/EN_Cas_line03818df
-    fmodEventALT:
-      Guid:
-        Data1: -1132233696
-        Data2: 1129067652
-        Data3: 1404877449
-        Data4: -826138964
-      Path: event:/Dialogue/ALT/03818df
-  - lineID: line:039feec
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1177797629
-        Data2: 1300686889
-        Data3: -455289171
-        Data4: -484310410
-      Path: event:/Dialogue/EN/EN_Cas_line039feec
-    fmodEventALT:
-      Guid:
-        Data1: 1288724347
-        Data2: 1334095494
-        Data3: 24185507
-        Data4: 2130192937
-      Path: event:/Dialogue/ALT/039feec
-  - lineID: line:08e576d
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -2096387723
-        Data2: 1103569086
-        Data3: 1301422241
-        Data4: 158717254
-      Path: event:/Dialogue/EN/EN_Viktor_line08e2d8e
-    fmodEventALT:
-      Guid:
-        Data1: 186463542
-        Data2: 1304685393
-        Data3: -35576407
-        Data4: 478554539
-      Path: event:/Dialogue/ALT/08e576d
-  - lineID: line:0c3b830
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1625409552
-        Data2: 1255417104
-        Data3: 1682977438
-        Data4: 741239971
-      Path: event:/Dialogue/EN/EN_Jackie_line0c3b830
-    fmodEventALT:
-      Guid:
-        Data1: -991040435
-        Data2: 1243796802
-        Data3: -1772252996
-        Data4: 713691958
-      Path: event:/Dialogue/ALT/0c3b830
-  - lineID: line:06bb1c6
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -300914581
-        Data2: 1125676935
-        Data3: -1948516466
-        Data4: 613332448
-      Path: event:/Dialogue/EN/EN_Cas_line06bb1c6
-    fmodEventALT:
-      Guid:
-        Data1: 1009004254
-        Data2: 1241229549
-        Data3: 1970167220
-        Data4: -1747890838
-      Path: event:/Dialogue/ALT/06bb1c6
-  - lineID: line:0af46e0
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 885032311
-        Data2: 1235060535
-        Data3: 1625033879
-        Data4: 11867939
-      Path: event:/Dialogue/EN/EN_Viktor_line0af46e0
-    fmodEventALT:
-      Guid:
-        Data1: 928925805
-        Data2: 1323893809
-        Data3: -1638713472
-        Data4: 2114958639
-      Path: event:/Dialogue/ALT/0af46e0
-  - lineID: line:0fa838f
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1858089131
-        Data2: 1291203504
-        Data3: 1301846694
-        Data4: -1054571162
-      Path: event:/Dialogue/EN/EN_Cas_line0fa838f
-    fmodEventALT:
-      Guid:
-        Data1: -695650149
-        Data2: 1077905860
-        Data3: -1400340575
-        Data4: -736306441
-      Path: event:/Dialogue/ALT/0fa838f
-  - lineID: line:0c04d08
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -905785783
-        Data2: 1200596771
-        Data3: 200683453
-        Data4: -1883773639
-      Path: event:/Dialogue/EN/EN_Cas_line0c04d08
-    fmodEventALT:
-      Guid:
-        Data1: -1762999754
-        Data2: 1263494902
-        Data3: -479407978
-        Data4: 1258043725
-      Path: event:/Dialogue/ALT/0c04d08
-  - lineID: line:06fc1a5
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 631880108
-        Data2: 1184560212
-        Data3: 1212367532
-        Data4: 1788026436
-      Path: event:/Dialogue/EN/EN_Viktor_line06fc1a5
-    fmodEventALT:
-      Guid:
-        Data1: -829806439
-        Data2: 1101162968
-        Data3: -1910771283
-        Data4: 1768888446
-      Path: event:/Dialogue/ALT/06fc1a5
-  - lineID: line:0e9fd1b
-    description: what are you going to do
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0bb4148
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -405289221
-        Data2: 1238820855
-        Data3: -402753369
-        Data4: -2094779135
-      Path: event:/Dialogue/EN/0bb4148
-    fmodEventALT:
-      Guid:
-        Data1: -405289221
-        Data2: 1238820855
-        Data3: -402753369
-        Data4: -2094779135
-      Path: event:/Dialogue/EN/0bb4148
-  - lineID: line:00f5c81
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -739900246
-        Data2: 1264757461
-        Data3: -1490672510
-        Data4: -1904948062
-      Path: event:/Dialogue/EN/EN_Jackie_line00f5c81
-    fmodEventALT:
-      Guid:
-        Data1: -1085578732
-        Data2: 1198606759
-        Data3: 1709905797
-        Data4: -1991894052
-      Path: event:/Dialogue/ALT/00f5c81
-  - lineID: line:0531a6a
-    description: 'missing voiceline doc '
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0f70564
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -982337147
-        Data2: 1121702968
-        Data3: 908932482
-        Data4: -565947630
-      Path: event:/Dialogue/EN/0f70564
-    fmodEventALT:
-      Guid:
-        Data1: -315531541
-        Data2: 1334052534
-        Data3: 1962342529
-        Data4: -426811696
-      Path: event:/Dialogue/ALT/0f70564
-  - lineID: line:04b0478
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1553638432
-        Data2: 1174563640
-        Data3: -1605686339
-        Data4: -69856023
-      Path: event:/Dialogue/EN/EN_Jackie_line04b0478
-    fmodEventALT:
-      Guid:
-        Data1: 381961022
-        Data2: 1151303166
-        Data3: 729561236
-        Data4: -841388778
-      Path: event:/Dialogue/ALT/04b0478
-  - lineID: line:0833b6c
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1346100232
-        Data2: 1124022681
-        Data3: -409278051
-        Data4: -720716817
-      Path: event:/Dialogue/EN/EN_Viktor_line0833b6c
-    fmodEventALT:
-      Guid:
-        Data1: -1401848163
-        Data2: 1194897258
-        Data3: 58293660
-        Data4: 2105237272
-      Path: event:/Dialogue/ALT/0bde711
-  - lineID: line:059b68f
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1604529599
-        Data2: 1199497579
-        Data3: -657665606
-        Data4: -1434677183
-      Path: event:/Dialogue/EN/EN_Viktor_line0ce768f
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:07f2d21
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1619272816
-        Data2: 1176096610
-        Data3: -242641239
-        Data4: -1178759467
-      Path: event:/Dialogue/EN/059b68f
-    fmodEventALT:
-      Guid:
-        Data1: -78087644
-        Data2: 1114530346
-        Data3: -889434735
-        Data4: -805533940
-      Path: event:/Dialogue/ALT/07f2d21
-  - lineID: line:0b6b36b
-    description: dialogue choice
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0eb0d52
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 886516700
-        Data2: 1268452128
-        Data3: -405133927
-        Data4: -1562580705
-      Path: event:/Dialogue/EN/0eb0d52
-    fmodEventALT:
-      Guid:
-        Data1: 1975230016
-        Data2: 1149214404
-        Data3: 2060426429
-        Data4: 2015162552
-      Path: event:/Dialogue/ALT/0eb0d52
-  - lineID: line:0bde711
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1346100232
-        Data2: 1124022681
-        Data3: -409278051
-        Data4: -720716817
-      Path: event:/Dialogue/EN/EN_Viktor_line0833b6c
-    fmodEventALT:
-      Guid:
-        Data1: -1401848163
-        Data2: 1194897258
-        Data3: 58293660
-        Data4: 2105237272
-      Path: event:/Dialogue/ALT/0bde711
-  - lineID: line:0c5a87b
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1989310073
-        Data2: 1187296721
-        Data3: 21942167
-        Data4: 743884555
-      Path: event:/Dialogue/EN/EN_Cas_line0c5a87b
-    fmodEventALT:
-      Guid:
-        Data1: -1851018956
-        Data2: 1107021818
-        Data3: 1205931399
-        Data4: -1898632153
-      Path: event:/Dialogue/ALT/0c5a87b
-  - lineID: line:0483a0e
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -281642849
-        Data2: 1209791659
-        Data3: -1361044047
-        Data4: 339327547
-      Path: event:/Dialogue/EN/EN_Jackie_line0866f79
-    fmodEventALT:
-      Guid:
-        Data1: 959613185
-        Data2: 1319351021
-        Data3: -1621200466
-        Data4: -1855378900
-      Path: event:/Dialogue/ALT/0483a0e
-  - lineID: line:08c8c09
-    description: ioption walk back
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:095bb18
-    description: breakroom for higherups
-    fmodEventEN:
-      Guid:
-        Data1: -1358338726
-        Data2: 1231867776
-        Data3: -1765482618
-        Data4: 650170177
-      Path: event:/Dialogue/EN/EN_Jackie_line0541830
-    fmodEventALT:
-      Guid:
-        Data1: -2040496085
-        Data2: 1222028017
-        Data3: 876714121
-        Data4: -753527349
-      Path: event:/Dialogue/ALT/095bb18
-  - lineID: line:024de79
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -612452496
-        Data2: 1288109246
-        Data3: 2121195393
-        Data4: -2096981090
-      Path: event:/Dialogue/EN/EN_Viktor_line024de79
-    fmodEventALT:
-      Guid:
-        Data1: 1421879151
-        Data2: 1317517855
-        Data3: -654990174
-        Data4: -1063510479
-      Path: event:/Dialogue/ALT/024de79
-  - lineID: line:066b0c5
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1268306430
-        Data2: 1161922247
-        Data3: -1651661172
-        Data4: 1994196156
-      Path: event:/Dialogue/EN/EN_Jackie_line066b0c5
-    fmodEventALT:
-      Guid:
-        Data1: -1945474004
-        Data2: 1337655047
-        Data3: -1774837116
-        Data4: 341020418
-      Path: event:/Dialogue/ALT/066b0c5
-  - lineID: line:0866f79
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -281642849
-        Data2: 1209791659
-        Data3: -1361044047
-        Data4: 339327547
-      Path: event:/Dialogue/EN/EN_Jackie_line0866f79
-    fmodEventALT:
-      Guid:
-        Data1: -1461865439
-        Data2: 1331792890
-        Data3: 1079373494
-        Data4: -1538161547
-      Path: event:/Dialogue/ALT/0866f79
-  - lineID: line:0983119
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -526221346
-        Data2: 1260345925
-        Data3: -2128289900
-        Data4: 28693600
-      Path: event:/Dialogue/EN/EN_Viktor_line0371756
-    fmodEventALT:
-      Guid:
-        Data1: -1044520728
-        Data2: 1275782964
-        Data3: -557759866
-        Data4: -1352014169
-      Path: event:/Dialogue/ALT/0983119
-  - lineID: line:0f814b5
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1256381660
-        Data2: 1147348256
-        Data3: -154978677
-        Data4: -1651634378
-      Path: event:/Dialogue/EN/EN_Jackie_line0164b56
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:088c564
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1994426865
-        Data2: 1249150613
-        Data3: 1072872328
-        Data4: -1074459230
-      Path: event:/Dialogue/EN/088c564
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0b06a1c
-    description: 3
-    fmodEventEN:
-      Guid:
-        Data1: 1314019541
-        Data2: 1183973040
-        Data3: 84444859
-        Data4: 75015909
-      Path: event:/Dialogue/EN/EN_Viktor_line0e5e759
-    fmodEventALT:
-      Guid:
-        Data1: 1311331526
-        Data2: 1198089669
-        Data3: -671761985
-        Data4: -1732515381
-      Path: event:/Dialogue/ALT/0b06a1c
-  - lineID: line:031ba4c
-    description: 2
-    fmodEventEN:
-      Guid:
-        Data1: 809243422
-        Data2: 1183385270
-        Data3: 248540093
-        Data4: -743624204
-      Path: event:/Dialogue/EN/EN_Viktor_line019a3cf
-    fmodEventALT:
-      Guid:
-        Data1: -615498550
-        Data2: 1162325770
-        Data3: 1572627615
-        Data4: 578640703
-      Path: event:/Dialogue/ALT/031ba4c
-  - lineID: line:0c66d12
-    description: 1
-    fmodEventEN:
-      Guid:
-        Data1: 1967892537
-        Data2: 1327383237
-        Data3: 1080123582
-        Data4: 834997810
-      Path: event:/Dialogue/EN/EN_Viktor_line095ffc1
-    fmodEventALT:
-      Guid:
-        Data1: 1567866462
-        Data2: 1198777548
-        Data3: -174999882
-        Data4: 1888807972
-      Path: event:/Dialogue/ALT/0c66d12
-  - lineID: line:0e42d53
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -597021503
-        Data2: 1220662938
-        Data3: -594336856
-        Data4: -1249298412
-      Path: event:/Dialogue/EN/0e42d53
-    fmodEventALT:
-      Guid:
-        Data1: 830327615
-        Data2: 1093661424
-        Data3: -62452828
-        Data4: -530506899
-      Path: event:/Dialogue/ALT/0e42d53
-  - lineID: line:0ebf90f
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1050437067
-        Data2: 1126534067
-        Data3: -1351611208
-        Data4: 1397869547
-      Path: event:/Dialogue/EN/0ebf90f
-    fmodEventALT:
-      Guid:
-        Data1: -1050437067
-        Data2: 1126534067
-        Data3: -1351611208
-        Data4: 1397869547
-      Path: event:/Dialogue/EN/0ebf90f
-  - lineID: line:0669424
-    description: breakroom for higherups
-    fmodEventEN:
-      Guid:
-        Data1: -1358338726
-        Data2: 1231867776
-        Data3: -1765482618
-        Data4: 650170177
-      Path: event:/Dialogue/EN/EN_Jackie_line0541830
-    fmodEventALT:
-      Guid:
-        Data1: -1029838564
-        Data2: 1123957487
-        Data3: 260103609
-        Data4: 314480688
-      Path: event:/Dialogue/ALT/0669424
-  - lineID: line:05a2461
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1902987607
-        Data2: 1267139140
-        Data3: 550421120
-        Data4: -1380946621
-      Path: event:/Dialogue/EN/EN_Viktor_line05a870c
-    fmodEventALT:
-      Guid:
-        Data1: 770189492
-        Data2: 1282065986
-        Data3: -937085768
-        Data4: -257520712
-      Path: event:/Dialogue/ALT/05a870c
-  - lineID: line:0541830
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1358338726
-        Data2: 1231867776
-        Data3: -1765482618
-        Data4: 650170177
-      Path: event:/Dialogue/EN/EN_Jackie_line0541830
-    fmodEventALT:
-      Guid:
-        Data1: -991040435
-        Data2: 1243796802
-        Data3: -1772252996
-        Data4: 713691958
-      Path: event:/Dialogue/ALT/0c3b830
-  - lineID: line:01512ff
-    description: good call
-    fmodEventEN:
-      Guid:
-        Data1: -173909476
-        Data2: 1197993648
-        Data3: 2094530955
-        Data4: -543971894
-      Path: event:/Dialogue/EN/EN_Cas_line08cad58
-    fmodEventALT:
-      Guid:
-        Data1: -588911854
-        Data2: 1141465574
-        Data3: 1280689825
-        Data4: -1078016613
-      Path: event:/Dialogue/ALT/01512ff
-  - lineID: line:0a3685e
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -528185174
-        Data2: 1126154638
-        Data3: -1354339665
-        Data4: -14066797
-      Path: event:/Dialogue/EN/0a3685e
-    fmodEventALT:
-      Guid:
-        Data1: 1292899565
-        Data2: 1232246050
-        Data3: -103570544
-        Data4: 1295194299
-      Path: event:/Dialogue/ALT/0a3685e
-  - lineID: line:06ea25a
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -189251525
-        Data2: 1115849013
-        Data3: 637225603
-        Data4: -832066050
-      Path: event:/Dialogue/EN/EN_Jackie_line06ea25a
-    fmodEventALT:
-      Guid:
-        Data1: 688985593
-        Data2: 1166689596
-        Data3: -2084564579
-        Data4: -832407989
-      Path: event:/Dialogue/ALT/06ea25a
-  - lineID: line:06b216f
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1218004693
-        Data2: 1313822935
-        Data3: -1763397733
-        Data4: -438665248
-      Path: event:/Dialogue/EN/EN_Jackie_line06b216f
-    fmodEventALT:
-      Guid:
-        Data1: 273209738
-        Data2: 1207378610
-        Data3: -642775105
-        Data4: -822321235
-      Path: event:/Dialogue/ALT/06b216f
-  - lineID: line:0fbea3d
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -2117375588
-        Data2: 1164953301
-        Data3: 1712443057
-        Data4: 1929363495
-      Path: event:/Dialogue/EN/EN_Jackie_line0fbea3d
-    fmodEventALT:
-      Guid:
-        Data1: -696326079
-        Data2: 1124905654
-        Data3: 45189548
-        Data4: 123766752
-      Path: event:/Dialogue/ALT/0fbea3d
-  - lineID: line:05e6286
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 2111394007
-        Data2: 1311953685
-        Data3: -1700601207
-        Data4: -607380920
-      Path: event:/Dialogue/EN/EN_Jackie_line05e6286
-    fmodEventALT:
-      Guid:
-        Data1: 1214489127
-        Data2: 1156916729
-        Data3: -417407593
-        Data4: -112442823
-      Path: event:/Dialogue/ALT/05e6286
-  - lineID: line:086a33f
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1567390954
-        Data2: 1131173672
-        Data3: -1120977233
-        Data4: -1921613594
-      Path: event:/Dialogue/EN/086a33f
-    fmodEventALT:
-      Guid:
-        Data1: -1793937786
-        Data2: 1304307483
-        Data3: -73584452
-        Data4: 1227551538
-      Path: event:/Dialogue/ALT/086a33f
-  - lineID: line:05218c7
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -2007343719
-        Data2: 1281321618
-        Data3: -856263293
-        Data4: -1370250398
-      Path: event:/Dialogue/EN/EN_Jackie_line05218c7
-    fmodEventALT:
-      Guid:
-        Data1: -1487903650
-        Data2: 1317228506
-        Data3: 1285653907
-        Data4: 2106992849
-      Path: event:/Dialogue/ALT/05218c7
-  - lineID: line:0983a35
-    description: call them sky
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0f80ca5
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1062618781
-        Data2: 1171150871
-        Data3: 1421229239
-        Data4: 316386054
-      Path: event:/Dialogue/EN/0f80ca5
-    fmodEventALT:
-      Guid:
-        Data1: 1062618781
-        Data2: 1171150871
-        Data3: 1421229239
-        Data4: 316386054
-      Path: event:/Dialogue/EN/0f80ca5
-  - lineID: line:005f1e3
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -358899809
-        Data2: 1220116865
-        Data3: 1797255327
-        Data4: 502455865
-      Path: event:/Dialogue/EN/EN_Jackie_line005f1e3
-    fmodEventALT:
-      Guid:
-        Data1: 694753093
-        Data2: 1288887467
-        Data3: -593967961
-        Data4: -1117635748
-      Path: event:/Dialogue/ALT/005f1e3
-  - lineID: line:00e9552
-    description: call them alex
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:05260b0
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1267773071
-        Data2: 1209555643
-        Data3: -827845962
-        Data4: 351688004
-      Path: event:/Dialogue/EN/05260b0
-    fmodEventALT:
-      Guid:
-        Data1: 1751460561
-        Data2: 1121217248
-        Data3: -11733356
-        Data4: 1636140221
-      Path: event:/Dialogue/ALT/05260b0 2
-  - lineID: line:0164b56
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1256381660
-        Data2: 1147348256
-        Data3: -154978677
-        Data4: -1651634378
-      Path: event:/Dialogue/EN/EN_Jackie_line0164b56
-    fmodEventALT:
-      Guid:
-        Data1: -214763293
-        Data2: 1166899230
-        Data3: 2012642482
-        Data4: 647404425
-      Path: event:/Dialogue/ALT/0164b56
-  - lineID: line:0500649
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 511069251
-        Data2: 1284138837
-        Data3: -1837652860
-        Data4: -917665988
-      Path: event:/Dialogue/EN/EN_Jackie_line0500649
-    fmodEventALT:
-      Guid:
-        Data1: -279188008
-        Data2: 1253463549
-        Data3: 1590711994
-        Data4: 66650445
-      Path: event:/Dialogue/ALT/0500649
-  - lineID: line:046f65b
-    description: call them sam
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:0bdd4d6
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1966163389
-        Data2: 1080288680
-        Data3: -302970709
-        Data4: 67160709
-      Path: event:/Dialogue/EN/0bdd4d6
-    fmodEventALT:
-      Guid:
-        Data1: -731984236
-        Data2: 1256222854
-        Data3: 191248264
-        Data4: -2130629355
-      Path: event:/Dialogue/ALT/0bdd4d6
-  - lineID: line:0b2c333
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -803660484
-        Data2: 1277770131
-        Data3: -511876434
-        Data4: -1017504789
-      Path: event:/Dialogue/EN/EN_Jackie_line0b2c333
-    fmodEventALT:
-      Guid:
-        Data1: 1257900089
-        Data2: 1100195436
-        Data3: -794341996
-        Data4: -770092997
-      Path: event:/Dialogue/ALT/0b2c333
-  - lineID: line:0e7659c
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -173909476
-        Data2: 1197993648
-        Data3: 2094530955
-        Data4: -543971894
-      Path: event:/Dialogue/EN/EN_Cas_line08cad58
-    fmodEventALT:
-      Guid:
-        Data1: -154791104
-        Data2: 1105505196
-        Data3: 284389518
-        Data4: -1973557115
-      Path: event:/Dialogue/ALT/0e7659c
-  - lineID: line:0efded1
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1887054034
-        Data2: 1309627266
-        Data3: 1035082908
-        Data4: -414939254
-      Path: event:/Dialogue/EN/EN_Viktor_line0efded1
-    fmodEventALT:
-      Guid:
-        Data1: -472829375
-        Data2: 1244588864
-        Data3: 1819381145
-        Data4: 1953035816
-      Path: event:/Dialogue/ALT/0efded1
-  - lineID: line:0ad72e2
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -185421856
-        Data2: 1308497379
-        Data3: 1723455411
-        Data4: 1873723546
-      Path: event:/Dialogue/EN/0ad72e2
-    fmodEventALT:
-      Guid:
-        Data1: 471778293
-        Data2: 1312397406
-        Data3: 1914099863
-        Data4: 273691893
-      Path: event:/Dialogue/ALT/0ad72e2
-  - lineID: line:0f89c54
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -217602788
-        Data2: 1319124777
-        Data3: -1589697152
-        Data4: -1940632217
-      Path: event:/Dialogue/EN/EN_Cas_line0f89c54
-    fmodEventALT:
-      Guid:
-        Data1: -2008337094
-        Data2: 1127333283
-        Data3: 1262618501
-        Data4: -1550696542
-      Path: event:/Dialogue/ALT/0f89c54
-  - lineID: line:09ed9b6
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1118173150
-        Data2: 1300682505
-        Data3: -396970856
-        Data4: -1251738297
-      Path: event:/Dialogue/EN/09ed9b6
-    fmodEventALT:
-      Guid:
-        Data1: -1258233766
-        Data2: 1327306916
-        Data3: -200255590
-        Data4: 1856641130
-      Path: event:/Dialogue/ALT/09ed9b6
-  - lineID: line:0050101
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -2142702854
-        Data2: 1156662996
-        Data3: 1464498075
-        Data4: -432413773
-      Path: event:/Dialogue/EN/EN_Cas_line0050101
-    fmodEventALT:
-      Guid:
-        Data1: 2021510515
-        Data2: 1192296734
-        Data3: -301384267
-        Data4: -1338928777
-      Path: event:/Dialogue/ALT/0050101
-  - lineID: line:028d766
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 2042304255
-        Data2: 1273402167
-        Data3: 2058067389
-        Data4: 1343069993
-      Path: event:/Dialogue/EN/EN_Cas_line028d766
-    fmodEventALT:
-      Guid:
-        Data1: -1968437903
-        Data2: 1250544279
-        Data3: -1564832326
-        Data4: 1527351495
-      Path: event:/Dialogue/ALT/028d766
-  - lineID: line:0281bef
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 2093437051
-        Data2: 1104677858
-        Data3: -938955879
-        Data4: 1332006584
-      Path: event:/Dialogue/EN/EN_Cas_line0281bef
-    fmodEventALT:
-      Guid:
-        Data1: -885827354
-        Data2: 1285113307
-        Data3: 365907602
-        Data4: -74200752
-      Path: event:/Dialogue/ALT/0281bef
-  - lineID: line:077acf0
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1678220615
-        Data2: 1339285031
-        Data3: -1569778242
-        Data4: -1393541340
-      Path: event:/Dialogue/EN/EN_Cas_line077acf0
-    fmodEventALT:
-      Guid:
-        Data1: 181210590
-        Data2: 1110257675
-        Data3: -1734195279
-        Data4: 431062512
-      Path: event:/Dialogue/ALT/077acf0
-  - lineID: line:06137b7
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1341061648
-        Data2: 1150676970
-        Data3: 2007083936
-        Data4: -1458096701
-      Path: event:/Dialogue/EN/06137b7
-    fmodEventALT:
-      Guid:
-        Data1: 1122667389
-        Data2: 1150733115
-        Data3: -1093206869
-        Data4: 698817766
-      Path: event:/Dialogue/ALT/06137b7
-  - lineID: line:00ad72b
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 731330963
-        Data2: 1195644792
-        Data3: -1874856027
-        Data4: 1697831542
-      Path: event:/Dialogue/EN/EN_Cas_line00ad72b
-    fmodEventALT:
-      Guid:
-        Data1: -206150717
-        Data2: 1157933404
-        Data3: -2010946429
-        Data4: 157094998
-      Path: event:/Dialogue/ALT/00ad72b
-  - lineID: line:0dda235
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 542185845
-        Data2: 1214889069
-        Data3: -1540774732
-        Data4: -179663595
-      Path: event:/Dialogue/EN/0dda235
-    fmodEventALT:
-      Guid:
-        Data1: -465110717
-        Data2: 1308172514
-        Data3: 1952539826
-        Data4: -1051121889
-      Path: event:/Dialogue/ALT/0dda235
-  - lineID: line:08cad58
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -173909476
-        Data2: 1197993648
-        Data3: 2094530955
-        Data4: -543971894
-      Path: event:/Dialogue/EN/EN_Cas_line08cad58
-    fmodEventALT:
-      Guid:
-        Data1: 1653752673
-        Data2: 1200650046
-        Data3: -1922450047
-        Data4: -1606634665
-      Path: event:/Dialogue/ALT/08cad58
-  - lineID: line:012d810
-    description: sigh
-    fmodEventEN:
-      Guid:
-        Data1: 1887054034
-        Data2: 1309627266
-        Data3: 1035082908
-        Data4: -414939254
-      Path: event:/Dialogue/EN/EN_Viktor_line0efded1
-    fmodEventALT:
-      Guid:
-        Data1: 583138688
-        Data2: 1183376368
-        Data3: -2077898615
-        Data4: -1712813881
-      Path: event:/Dialogue/ALT/012d810
-  - lineID: line:05f0b69
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -7151208
-        Data2: 1137117823
-        Data3: -86885453
-        Data4: -2080486891
-      Path: event:/Dialogue/EN/05f0b69
-    fmodEventALT:
-      Guid:
-        Data1: -1088355577
-        Data2: 1075731599
-        Data3: -1313847666
-        Data4: 294647332
-      Path: event:/Dialogue/ALT/05f0b69
-  - lineID: line:01ca748
+  - lineID: line:0
     description: 
     fmodEventEN:
       Guid:
-        Data1: 481675183
-        Data2: 1245020282
-        Data3: -178852434
-        Data4: -1869915028
-      Path: event:/Dialogue/EN/EN_Viktor_line01ca748
+        Data1: 2133621601
+        Data2: 1255040564
+        Data3: -1862014052
+        Data4: 130716045
+      Path: event:/New Folder/alarm-clock-90867
     fmodEventALT:
       Guid:
-        Data1: -1320994549
-        Data2: 1084235260
-        Data3: -1275378011
-        Data4: 338401146
-      Path: event:/Dialogue/ALT/01ca748
-  - lineID: line:0ff922d
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -488227677
-        Data2: 1218550759
-        Data3: 397986747
-        Data4: 1249503655
-      Path: event:/Dialogue/EN/EN_Viktor_line0ff922d
-    fmodEventALT:
-      Guid:
-        Data1: -1994361336
-        Data2: 1340576066
-        Data3: -303145310
-        Data4: 36034661
-      Path: event:/Dialogue/ALT/0ff922d
-  - lineID: line:02b14f1
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 635957677
-        Data2: 1306847010
-        Data3: -200945022
-        Data4: -824856701
-      Path: event:/Dialogue/EN/02b14f1
-    fmodEventALT:
-      Guid:
         Data1: 0
         Data2: 0
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0a1a06b
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -310066207
-        Data2: 1291651425
-        Data3: 682296995
-        Data4: -492864398
-      Path: event:/Dialogue/EN/EN_Viktor_line0a1a06b
-    fmodEventALT:
-      Guid:
-        Data1: 1833199439
-        Data2: 1209787189
-        Data3: 693193886
-        Data4: -1570576910
-      Path: event:/Dialogue/ALT/0a1a06b
-  - lineID: line:047a4f3
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -548672843
-        Data2: 1132381054
-        Data3: 2037551282
-        Data4: 2107461845
-      Path: event:/Dialogue/EN/047a4f3
-    fmodEventALT:
-      Guid:
-        Data1: -1988440708
-        Data2: 1212567030
-        Data3: 732242844
-        Data4: -453007623
-      Path: event:/Dialogue/ALT/047a4f3
-  - lineID: line:04f44b6
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1401658970
-        Data2: 1211732101
-        Data3: -1383250265
-        Data4: 361843921
-      Path: event:/Dialogue/EN/04f44b6
-    fmodEventALT:
-      Guid:
-        Data1: -867756492
-        Data2: 1323281223
-        Data3: -654738265
-        Data4: -1667800277
-      Path: event:/Dialogue/ALT/04f44b6
-  - lineID: line:05a870c
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1902987607
-        Data2: 1267139140
-        Data3: 550421120
-        Data4: -1380946621
-      Path: event:/Dialogue/EN/EN_Viktor_line05a870c
-    fmodEventALT:
-      Guid:
-        Data1: 770189492
-        Data2: 1282065986
-        Data3: -937085768
-        Data4: -257520712
-      Path: event:/Dialogue/ALT/05a870c
-  - lineID: line:04c4fd0
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -474657959
-        Data2: 1320500699
-        Data3: -1574340480
-        Data4: 925966044
-      Path: event:/Dialogue/EN/04c4fd0
-    fmodEventALT:
-      Guid:
-        Data1: 1313781518
-        Data2: 1305628614
-        Data3: 1324072844
-        Data4: 646897281
-      Path: event:/Dialogue/ALT/04c4fd0
-  - lineID: line:02e2983
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 842659287
-        Data2: 1203493647
-        Data3: 171422873
-        Data4: 1536947371
-      Path: event:/Dialogue/EN/EN_Jackie_line02e2983
-    fmodEventALT:
-      Guid:
-        Data1: 879487789
-        Data2: 1155364467
-        Data3: -717647454
-        Data4: -1515132592
-      Path: event:/Dialogue/ALT/02e2983
-  - lineID: line:00f17d9
+  - lineID: line:1
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1825047744
-        Data2: 1155632538
-        Data3: 580841398
-        Data4: -903715996
-      Path: event:/Dialogue/EN/EN_Viktor_line00f17d9
+        Data1: 1628543730
+        Data2: 1158629162
+        Data3: 1262538661
+        Data4: -234858295
+      Path: event:/New Folder/lil1
     fmodEventALT:
       Guid:
-        Data1: -2055900674
-        Data2: 1210479499
-        Data3: 1294888883
-        Data4: -1097370715
-      Path: event:/Dialogue/ALT/00f17d9
-  - lineID: line:0d2c5b2
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1260683116
-        Data2: 1147430754
-        Data3: 895027073
-        Data4: -1594550303
-      Path: event:/Dialogue/EN/EN_Jackie_line0d2c5b2
-    fmodEventALT:
-      Guid:
-        Data1: 390736119
-        Data2: 1156852576
-        Data3: 1925006256
-        Data4: -1435009714
-      Path: event:/Dialogue/ALT/0d2c5b2
-  - lineID: line:0ce768f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:2
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1604529599
-        Data2: 1199497579
-        Data3: -657665606
-        Data4: -1434677183
-      Path: event:/Dialogue/EN/EN_Viktor_line0ce768f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1531163445
-        Data2: 1266995553
-        Data3: 290581126
-        Data4: -703406619
-      Path: event:/Dialogue/ALT/0ce768f
-  - lineID: line:08e62d3
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:3
     description: 
     fmodEventEN:
       Guid:
-        Data1: -2096387723
-        Data2: 1103569086
-        Data3: 1301422241
-        Data4: 158717254
-      Path: event:/Dialogue/EN/EN_Viktor_line08e2d8e
+        Data1: -1424946260
+        Data2: 1178875871
+        Data3: 571316143
+        Data4: 2140068250
+      Path: event:/New Folder/lil2
     fmodEventALT:
       Guid:
         Data1: 0
@@ -20225,7 +19561,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0923f36
+  - lineID: line:4
     description: 
     fmodEventEN:
       Guid:
@@ -20241,24 +19577,8 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e97f62
+  - lineID: line:5
     description: 
-    fmodEventEN:
-      Guid:
-        Data1: 681406515
-        Data2: 1192519906
-        Data3: -541712726
-        Data4: 1742569863
-      Path: event:/Dialogue/EN/EN_Jackie_line0e97f62
-    fmodEventALT:
-      Guid:
-        Data1: 1462060161
-        Data2: 1125640038
-        Data3: -2030880841
-        Data4: -1647603540
-      Path: event:/Dialogue/ALT/0e97f62
-  - lineID: line:0727a0d
-    description: option search arround for clues
     fmodEventEN:
       Guid:
         Data1: 0
@@ -20273,120 +19593,24 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:06063d3
+  - lineID: line:6
     description: 
     fmodEventEN:
       Guid:
-        Data1: -92122184
-        Data2: 1218168513
-        Data3: 1474452923
-        Data4: 1256342281
-      Path: event:/Dialogue/EN/06063d3
-    fmodEventALT:
-      Guid:
-        Data1: -92122184
-        Data2: 1218168513
-        Data3: 1474452923
-        Data4: 1256342281
-      Path: event:/Dialogue/EN/06063d3
-  - lineID: line:0eac3f1
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -484366412
-        Data2: 1087205774
-        Data3: -1549864794
-        Data4: -500515950
-      Path: event:/Dialogue/EN/EN_Viktor_line0eac3f1
-    fmodEventALT:
-      Guid:
-        Data1: 1165355804
-        Data2: 1120742829
-        Data3: 2072225410
-        Data4: 1108225625
-      Path: event:/Dialogue/ALT/0eac3f1
-  - lineID: line:013a9df
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1303782322
-        Data2: 1101498028
-        Data3: 325113249
-        Data4: -1616873325
-      Path: event:/Dialogue/EN/EN_Cas_line013a9df
-    fmodEventALT:
-      Guid:
-        Data1: 642524097
-        Data2: 1124877893
-        Data3: -1039747693
-        Data4: -344257440
-      Path: event:/Dialogue/ALT/013a9df
-  - lineID: line:0fcc7b7
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1804429359
-        Data2: 1190540312
-        Data3: -1442140259
-        Data4: 1258394307
-      Path: event:/Dialogue/EN/EN_Jackie_line0fcc7b7
-    fmodEventALT:
-      Guid:
-        Data1: -253334936
-        Data2: 1216943363
-        Data3: -1459046220
-        Data4: -1685212760
-      Path: event:/Dialogue/ALT/0fcc7b7
-  - lineID: line:0fc1a3d
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -2117375588
-        Data2: 1164953301
-        Data3: 1712443057
-        Data4: 1929363495
-      Path: event:/Dialogue/EN/EN_Jackie_line0fbea3d
-    fmodEventALT:
-      Guid:
-        Data1: 2082602528
-        Data2: 1287365872
-        Data3: 1235736721
-        Data4: 295169595
-      Path: event:/Dialogue/ALT/0fc1a3d
-  - lineID: line:0b92141
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -29562524
-        Data2: 1194152764
-        Data3: 1527984006
-        Data4: 364205544
-      Path: event:/Dialogue/EN/EN_Jackie_line0b92141
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -535068784
-        Data2: 1302697417
-        Data3: -472580423
-        Data4: -1664380940
-      Path: event:/Dialogue/ALT/0b92141
-  - lineID: line:061880d
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:7
     description: 
-    fmodEventEN:
-      Guid:
-        Data1: -730044154
-        Data2: 1225539703
-        Data3: -369261385
-        Data4: -1359671099
-      Path: event:/Dialogue/EN/061880d
-    fmodEventALT:
-      Guid:
-        Data1: -730044154
-        Data2: 1225539703
-        Data3: -369261385
-        Data4: -1359671099
-      Path: event:/Dialogue/EN/061880d
-  - lineID: line:0b53e7a
-    description: option let the girl crack
     fmodEventEN:
       Guid:
         Data1: 0
@@ -20401,40 +19625,24 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:01011fe
+  - lineID: line:8
     description: 
     fmodEventEN:
       Guid:
-        Data1: -776206831
-        Data2: 1229400502
-        Data3: 641357955
-        Data4: 754094704
-      Path: event:/Dialogue/EN/EN_Jackie_line01011fe
+        Data1: -1005872934
+        Data2: 1113305748
+        Data3: 1291095446
+        Data4: 1910512850
+      Path: event:/New Folder/lil4
     fmodEventALT:
       Guid:
-        Data1: 2130258096
-        Data2: 1163480333
-        Data3: -108646229
-        Data4: -1599786101
-      Path: event:/Dialogue/ALT/01011fe
-  - lineID: line:07a90f8
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:9
     description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1780248234
-        Data2: 1292400159
-        Data3: -940047212
-        Data4: -45743956
-      Path: event:/Dialogue/EN/EN_Jackie_line07a90f8
-    fmodEventALT:
-      Guid:
-        Data1: -1141959303
-        Data2: 1253811544
-        Data3: 980399027
-        Data4: -1496004504
-      Path: event:/Dialogue/ALT/07a90f8
-  - lineID: line:046866b
-    description: option set the device oup right
     fmodEventEN:
       Guid:
         Data1: 0
@@ -20449,7 +19657,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f3747e
+  - lineID: line:10
     description: 
     fmodEventEN:
       Guid:
@@ -20465,7 +19673,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09ab285
+  - lineID: line:11
     description: 
     fmodEventEN:
       Guid:
@@ -20481,7 +19689,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0538b5b
+  - lineID: line:12
     description: 
     fmodEventEN:
       Guid:
@@ -20497,7 +19705,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0a9010a
+  - lineID: line:13
     description: 
     fmodEventEN:
       Guid:
@@ -20513,7 +19721,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c56b6f
+  - lineID: line:14
     description: 
     fmodEventEN:
       Guid:
@@ -20529,26 +19737,10 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0856224
+  - lineID: line:15
     description: 
     fmodEventEN:
       Guid:
-        Data1: -776206831
-        Data2: 1229400502
-        Data3: 641357955
-        Data4: 754094704
-      Path: event:/Dialogue/EN/EN_Jackie_line01011fe
-    fmodEventALT:
-      Guid:
-        Data1: -1666560276
-        Data2: 1172921100
-        Data3: 700665992
-        Data4: -103324863
-      Path: event:/Dialogue/ALT/0856224
-  - lineID: line:099013c
-    description: 
-    fmodEventEN:
-      Guid:
         Data1: 0
         Data2: 0
         Data3: 0
@@ -20561,7 +19753,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e94a9a
+  - lineID: line:16
     description: 
     fmodEventEN:
       Guid:
@@ -20577,7 +19769,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:00f0325
+  - lineID: line:17
     description: 
     fmodEventEN:
       Guid:
@@ -20593,7 +19785,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0eb3665
+  - lineID: line:18
     description: 
     fmodEventEN:
       Guid:
@@ -20609,23 +19801,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0ae65dd
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -92122184
-        Data2: 1218168513
-        Data3: 1474452923
-        Data4: 1256342281
-      Path: event:/Dialogue/EN/06063d3
-    fmodEventALT:
-      Guid:
-        Data1: -453033446
-        Data2: 1292553722
-        Data3: -261804637
-        Data4: -217464834
-      Path: event:/Dialogue/ALT/0ae65dd
-  - lineID: line:0ff5167
+  - lineID: line:19
     description: 
     fmodEventEN:
       Guid:
@@ -20641,39 +19817,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0637e7c
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1362391621
-        Data2: 1270020451
-        Data3: -1775411825
-        Data4: -1433849622
-      Path: event:/Dialogue/EN/EN_Cas_line0637e7c
-    fmodEventALT:
-      Guid:
-        Data1: -1150014466
-        Data2: 1149541132
-        Data3: 344179359
-        Data4: 730465396
-      Path: event:/Dialogue/ALT/0637e7c
-  - lineID: line:08cde8f
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1270361847
-        Data2: 1253818920
-        Data3: 188789669
-        Data4: 531389596
-      Path: event:/Dialogue/EN/EN_Jackie_line08cde8f
-    fmodEventALT:
-      Guid:
-        Data1: 1682287102
-        Data2: 1266755940
-        Data3: -1317666389
-        Data4: -1922157142
-      Path: event:/Dialogue/ALT/08cde8f
-  - lineID: line:0a38f00
+  - lineID: line:20
     description: 
     fmodEventEN:
       Guid:
@@ -20689,39 +19833,39 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:07f495f
+  - lineID: line:21
     description: 
     fmodEventEN:
       Guid:
-        Data1: -2044997515
-        Data2: 1223329027
-        Data3: 2007893678
-        Data4: -867777665
-      Path: event:/Dialogue/EN/07f495fiktor_line07f495f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -1397615511
-        Data2: 1112544789
-        Data3: -1187025525
-        Data4: -920091237
-      Path: event:/Dialogue/ALT/07f495f
-  - lineID: line:0e9847b
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:22
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1829627697
-        Data2: 1181772098
-        Data3: -538993274
-        Data4: 805327946
-      Path: event:/Dialogue/EN/EN_Cas_line0e9847b
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -1829627697
-        Data2: 1181772098
-        Data3: -538993274
-        Data4: 805327946
-      Path: event:/Dialogue/EN/EN_Cas_line0e9847b
-  - lineID: line:0cc1404
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:23
     description: 
     fmodEventEN:
       Guid:
@@ -20737,7 +19881,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0368a71
+  - lineID: line:24
     description: 
     fmodEventEN:
       Guid:
@@ -20753,31 +19897,31 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09a7492
+  - lineID: line:25
     description: 
     fmodEventEN:
       Guid:
-        Data1: 63565477
-        Data2: 1201793489
-        Data3: 2058973608
-        Data4: 337443847
-      Path: event:/Dialogue/EN/EN_Jackie_line09a7492
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 203083747
-        Data2: 1225796999
-        Data3: 1436780964
-        Data4: -1987090289
-      Path: event:/Dialogue/ALT/7492
-  - lineID: line:095dcb8
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:26
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1754130411
-        Data2: 1331981932
-        Data3: 1107490688
-        Data4: 934847988
-      Path: event:/Dialogue/EN/EN_Cas_line095dcb8
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
         Data1: 0
@@ -20785,39 +19929,39 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:08e2d8e
+  - lineID: line:27
     description: 
     fmodEventEN:
       Guid:
-        Data1: -2096387723
-        Data2: 1103569086
-        Data3: 1301422241
-        Data4: 158717254
-      Path: event:/Dialogue/EN/EN_Viktor_line08e2d8e
+        Data1: -1597170230
+        Data2: 1176884324
+        Data3: -105284729
+        Data4: 749859052
+      Path: event:/New Folder/lil5
     fmodEventALT:
       Guid:
-        Data1: -1655816461
-        Data2: 1323883101
-        Data3: 1170913211
-        Data4: -1954404867
-      Path: event:/Dialogue/ALT/08e2d8e
-  - lineID: line:0eebdaa
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:28
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1216424237
-        Data2: 1195554997
-        Data3: 2036153765
-        Data4: 1148331403
-      Path: event:/Dialogue/EN/EN_Jackie_line0eebdaa
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1115899130
-        Data2: 1270278946
-        Data3: -1349002564
-        Data4: -1230639492
-      Path: event:/Dialogue/ALT/0eebdaa
-  - lineID: line:0aa7357
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:29
     description: 
     fmodEventEN:
       Guid:
@@ -20833,71 +19977,71 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f2de43
+  - lineID: line:30
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1712871799
-        Data2: 1206259577
-        Data3: 2039665567
-        Data4: -1643234346
-      Path: event:/Dialogue/EN/EN_Viktor_line0f2de43
+        Data1: 789671291
+        Data2: 1211720941
+        Data3: 57356732
+        Data4: 1976080415
+      Path: event:/New Folder/w1
     fmodEventALT:
       Guid:
-        Data1: 398481347
-        Data2: 1087816365
-        Data3: 1712695189
-        Data4: -350510645
-      Path: event:/Dialogue/ALT/0f2de43
-  - lineID: line:0790379
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:31
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1454806345
-        Data2: 1233558564
-        Data3: -107926910
-        Data4: -427505523
-      Path: event:/Dialogue/EN/EN_Jackie_line0790379
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -254286861
-        Data2: 1311426102
-        Data3: 921865631
-        Data4: -1464001110
-      Path: event:/Dialogue/ALT/0790379
-  - lineID: line:0161059
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:32
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1451394493
-        Data2: 1168346540
-        Data3: -377230184
-        Data4: 759799907
-      Path: event:/Dialogue/EN/EN_Jackie_line0161059
+        Data1: 215624406
+        Data2: 1099691071
+        Data3: 989815192
+        Data4: 1846065179
+      Path: event:/New Folder/w2
     fmodEventALT:
       Guid:
-        Data1: -1199942029
-        Data2: 1103198632
-        Data3: -1693156675
-        Data4: -824028296
-      Path: event:/Dialogue/ALT/0161059
-  - lineID: line:062f12b
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:33
     description: 
     fmodEventEN:
       Guid:
-        Data1: 310982527
-        Data2: 1088197203
-        Data3: -940727678
-        Data4: -1820636476
-      Path: event:/Dialogue/EN/EN_Cas_line062f12b
+        Data1: -613355391
+        Data2: 1233250380
+        Data3: -1198376778
+        Data4: -899386972
+      Path: event:/New Folder/w3
     fmodEventALT:
       Guid:
-        Data1: -1901231594
-        Data2: 1098840348
-        Data3: 140032919
-        Data4: 889088764
-      Path: event:/Dialogue/ALT/062f12b
-  - lineID: line:0638606
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:34
     description: 
     fmodEventEN:
       Guid:
@@ -20913,55 +20057,23 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09e0a1f
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -361865355
-        Data2: 1278843542
-        Data3: -2071684727
-        Data4: 1850475096
-      Path: event:/Dialogue/EN/EN_Jackie_line09e0a1f
-    fmodEventALT:
-      Guid:
-        Data1: -842499938
-        Data2: 1133044353
-        Data3: 1705208758
-        Data4: -416501116
-      Path: event:/Dialogue/ALT/09e0a1f
-  - lineID: line:075d677
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 683542696
-        Data2: 1287709811
-        Data3: -1606271560
-        Data4: -502455490
-      Path: event:/Dialogue/EN/EN_Cas_line075d677
-    fmodEventALT:
-      Guid:
-        Data1: -478359235
-        Data2: 1255805347
-        Data3: -1245069906
-        Data4: 784168736
-      Path: event:/Dialogue/ALT/075d677
-  - lineID: line:0918e6d
+  - lineID: line:35
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1658505799
-        Data2: 1177403648
-        Data3: 994536334
-        Data4: -488792969
-      Path: event:/Dialogue/EN/EN_Jackie_line0918e6d
+        Data1: 1825467324
+        Data2: 1252947721
+        Data3: -1843482747
+        Data4: 1172115360
+      Path: event:/New Folder/w4
     fmodEventALT:
       Guid:
-        Data1: -2143740313
-        Data2: 1098855370
-        Data3: -681614926
-        Data4: 1785266985
-      Path: event:/Dialogue/ALT/0918e6d
-  - lineID: line:0cd13fa
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:36
     description: 
     fmodEventEN:
       Guid:
@@ -20977,15 +20089,15 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:008be4b
+  - lineID: line:37
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -93361875
+        Data2: 1205047152
+        Data3: -6710387
+        Data4: 1384382376
+      Path: event:/New Folder/lil6
     fmodEventALT:
       Guid:
         Data1: 0
@@ -20993,7 +20105,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:067128d
+  - lineID: line:38
     description: 
     fmodEventEN:
       Guid:
@@ -21009,7 +20121,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b19d4b
+  - lineID: line:39
     description: 
     fmodEventEN:
       Guid:
@@ -21025,7 +20137,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0da9e27
+  - lineID: line:40
     description: 
     fmodEventEN:
       Guid:
@@ -21041,71 +20153,55 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:06616ce
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 279502504
-        Data2: 1218586490
-        Data3: -1983063407
-        Data4: -1338763330
-      Path: event:/Dialogue/EN/EN_Jackie_line06616ce
-    fmodEventALT:
-      Guid:
-        Data1: 594543638
-        Data2: 1172028987
-        Data3: 1101971885
-        Data4: -263350245
-      Path: event:/Dialogue/ALT/06616ce
-  - lineID: line:00d5a42
+  - lineID: line:41
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1999465553
-        Data2: 1177473798
-        Data3: -817164106
-        Data4: 1527967935
-      Path: event:/Dialogue/EN/EN_Jackie_line00d5a42
+        Data1: -1846668236
+        Data2: 1299289633
+        Data3: 358137267
+        Data4: -506057260
+      Path: event:/New Folder/lil7
     fmodEventALT:
       Guid:
-        Data1: 1685427777
-        Data2: 1097179371
-        Data3: 1942501305
-        Data4: -428969208
-      Path: event:/Dialogue/ALT/00d5a42
-  - lineID: line:049146b
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:42
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1386112739
-        Data2: 1229521861
-        Data3: 1838607534
-        Data4: -399999461
-      Path: event:/Dialogue/EN/EN_Viktor_line049146b
+        Data1: -2143772729
+        Data2: 1167368377
+        Data3: -80994664
+        Data4: -1410350581
+      Path: event:/New Folder/w5
     fmodEventALT:
       Guid:
-        Data1: -450186019
-        Data2: 1217794382
-        Data3: 1049312409
-        Data4: -109781130
-      Path: event:/Dialogue/ALT/049146b
-  - lineID: line:0f56197
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:43
     description: 
     fmodEventEN:
       Guid:
-        Data1: -997545207
-        Data2: 1307798742
-        Data3: 1144287404
-        Data4: -736388219
-      Path: event:/Dialogue/EN/EN_Cas_line0f56197
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -204378921
-        Data2: 1164576426
-        Data3: 1669557380
-        Data4: -1780473940
-      Path: event:/Dialogue/ALT/0f56197
-  - lineID: line:0a8f49c
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:44
     description: 
     fmodEventEN:
       Guid:
@@ -21121,7 +20217,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0da7c3c
+  - lineID: line:45
     description: 
     fmodEventEN:
       Guid:
@@ -21137,7 +20233,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0278c08
+  - lineID: line:46
     description: 
     fmodEventEN:
       Guid:
@@ -21153,7 +20249,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b447a5
+  - lineID: line:47
     description: 
     fmodEventEN:
       Guid:
@@ -21169,7 +20265,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0909db8
+  - lineID: line:48
     description: 
     fmodEventEN:
       Guid:
@@ -21185,7 +20281,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c80885
+  - lineID: line:49
     description: 
     fmodEventEN:
       Guid:
@@ -21201,15 +20297,31 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0eadbfb
+  - lineID: line:50
     description: 
     fmodEventEN:
       Guid:
+        Data1: -867368107
+        Data2: 1295458700
+        Data3: 1149483929
+        Data4: 775065387
+      Path: event:/New Folder/w6
+    fmodEventALT:
+      Guid:
         Data1: 0
         Data2: 0
         Data3: 0
         Data4: 0
       Path: 
+  - lineID: line:51
+    description: 
+    fmodEventEN:
+      Guid:
+        Data1: 1784002850
+        Data2: 1075454520
+        Data3: 453661881
+        Data4: 1480230827
+      Path: event:/New Folder/lil9
     fmodEventALT:
       Guid:
         Data1: 0
@@ -21217,7 +20329,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:003c677
+  - lineID: line:52
     description: 
     fmodEventEN:
       Guid:
@@ -21233,7 +20345,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0ea3fe2
+  - lineID: line:53
     description: 
     fmodEventEN:
       Guid:
@@ -21249,7 +20361,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c6804e
+  - lineID: line:54
     description: 
     fmodEventEN:
       Guid:
@@ -23689,12 +22801,6 @@ Transform:
   - {fileID: 1786713138}
   m_Father: {fileID: 64678069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!224 &1898264267 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6171065927392831707, guid: fa6868ee95c274c9180e91739967ec61,
-    type: 3}
-  m_PrefabInstance: {fileID: 1223295972}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1905018251
 GameObject:
   m_ObjectHideFlags: 0
@@ -23793,6 +22899,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &1906946730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24323,6 +23432,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!4 &1974723098
 Transform:
   m_ObjectHideFlags: 0
@@ -24370,36 +23482,6 @@ Transform:
   - {fileID: 712780556}
   m_Father: {fileID: 1654669444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2016889362 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8506304381781564400, guid: fa6868ee95c274c9180e91739967ec61,
-    type: 3}
-  m_PrefabInstance: {fileID: 1223295972}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2016889363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016889362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fb2bbd3d5f9049d1bbca89cb468bb7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: {fileID: 1628288449}
-  inventoryItemPrefab: {fileID: 117399945701536439, guid: 79b86fce0b6384708865d4e94396a699,
-    type: 3}
-  inventoryItemContainer: {fileID: 1898264267}
-  openStateName: InventoryShowAnimation
-  closeStateName: InventoryHideAnimation
---- !u!224 &2016889364 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 7456214084251516808, guid: fa6868ee95c274c9180e91739967ec61,
-    type: 3}
-  m_PrefabInstance: {fileID: 1223295972}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2033279494
 GameObject:
   m_ObjectHideFlags: 0
@@ -24941,6 +24023,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals: []
+    m_Events: []
 --- !u!114 &2114060720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28011,9 +27096,9 @@ SceneRoots:
   - {fileID: 1044996160}
   - {fileID: 620257177}
   - {fileID: 1354244442}
-  - {fileID: 1741807671}
   - {fileID: 464132117}
   - {fileID: 1469948383}
   - {fileID: 1874211663}
   - {fileID: 1028540896}
   - {fileID: 1905018252}
+  - {fileID: 1458222056}
