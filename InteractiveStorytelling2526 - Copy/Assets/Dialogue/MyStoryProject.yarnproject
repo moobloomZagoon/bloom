@@ -8,11 +8,12 @@
   ],
   "localisation": {
     "nl": {
-      "strings": "Localization\\NL_MyStoryProject.csv"
+      "strings": "MyStoryProjectBloomNL.csv"
     }
   },
   "baseLanguage": "en",
   "compilerOptions": {
     "diagnosticsSeverity": {}
-  }
+  },
+  "definitionsFiles": []
 }
