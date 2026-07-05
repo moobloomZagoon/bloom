@@ -6758,7 +6758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 994844327}
   - component: {fileID: 994844329}
-  - component: {fileID: 994844328}
+  - component: {fileID: 994844330}
   m_Layer: 0
   m_Name: Line Advancer
   m_TagString: Untagged
@@ -6781,18 +6781,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040721029}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &994844328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994844326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad15240c88dde41159620e5f27277386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: YarnSpinner.Unity::Yarn.Unity.LineAdvancerInput.KeyCodes
 --- !u!114 &994844329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6807,18 +6795,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runner: {fileID: 2040721030}
   presenter: {fileID: 1728965096}
+  separateHurryUpAndAdvanceControls: 1
   multiAdvanceIsCancel: 0
   advanceRequestsBeforeCancellingLine: 2
   inputMode: 1
-  hurryUpLineAction: {fileID: 0}
-  nextLineAction: {fileID: 0}
-  cancelDialogueAction: {fileID: 0}
-  enableActions: 1
-  hurryUpLineAxis: Jump
-  nextLineAxis: Cancel
-  cancelDialogueAxis: 
+  hasTransferredLegacyMapping: 1
+  legacyHurryUpLineAction: {fileID: 0}
+  legacyNextLineAction: {fileID: 0}
+  legacyHurryUpOptionsAction: {fileID: 0}
+  legacyCancelDialogueAction: {fileID: 0}
+  legacyEnableActions: 1
+  legacyHurryUpLineAxis: Jump
+  legacyNextLineAxis: Cancel
+  legacyHurryUpOptionsAxis: Jump
+  legacyCancelDialogueAxis: 
+  legacyHurryUpLineKeyCode: 32
+  legacyNextLineKeyCode: 27
+  legacyHurryUpOptionsKeyCode: 32
+  legacyCancelDialogueKeyCode: 0
+--- !u!114 &994844330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994844326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad15240c88dde41159620e5f27277386, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: YarnSpinner.Unity::Yarn.Unity.LineAdvancerInput.KeyCodes
+  lineAdvancer: {fileID: 994844329}
   hurryUpLineKeyCode: 32
-  nextLineKeyCode: 27
+  nextLineKeyCode: 101
+  hurryUpOptionsKeyCode: 32
   cancelDialogueKeyCode: 0
 --- !u!1 &999735867
 GameObject:
@@ -10208,26 +10218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedVersion: 0
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.1
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 0}
-  m_BuildHeightMesh: 0
 --- !u!1 &1250052106
 GameObject:
   m_ObjectHideFlags: 0
@@ -17440,7 +17430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 1728965098}
   lineText: {fileID: 1508425978}
-  showCharacterNameInLineView: 1
+  showCharacterNameInLine: 1
   characterNameText: {fileID: 1820488701}
   characterNameContainer: {fileID: 0}
   useFadeEffect: 1
@@ -17448,8 +17438,11 @@ MonoBehaviour:
   fadeDownDuration: 0.1
   autoAdvance: 0
   autoAdvanceDelay: 1
-  useTypewriterEffect: 1
-  typewriterEffectSpeed: 60
+  typewriterStyle: 1
+  lettersPerSecond: 60
+  wordsPerSecond: 10
+  customTypewriter:
+    targetObject: {fileID: 0}
   eventHandlers:
   - {fileID: 2021482856}
 --- !u!224 &1728965097
@@ -19813,22 +19806,6 @@ MonoBehaviour:
         Data3: -1044270955
         Data4: -1616449917
       Path: event:/dutch/nlw3
-  - lineID: line:34
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
   - lineID: line:35
     description: 
     fmodEventEN:
@@ -19878,38 +19855,6 @@ MonoBehaviour:
         Data4: 1200058942
       Path: event:/dutch/nllily11
   - lineID: line:38
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:39
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-    fmodEventALT:
-      Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
-  - lineID: line:40
     description: 
     fmodEventEN:
       Guid:
@@ -21240,10 +21185,12 @@ MonoBehaviour:
   - {fileID: 1728965096}
   - {fileID: 991245434}
   - {fileID: 994844329}
-  - {fileID: 0}
+  - {fileID: 1874211664}
+  verboseLogging: 0
   autoStart: 0
   startNode: Start
   runSelectedOptionAsLine: 0
+  allowOptionFallthrough: 1
   onNodeStart:
     m_PersistentCalls:
       m_Calls: []
