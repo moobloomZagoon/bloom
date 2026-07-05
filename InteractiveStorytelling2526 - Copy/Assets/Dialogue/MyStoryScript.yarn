@@ -25,7 +25,7 @@ lily: wait... are they moving? #line:8
     lily: AHHH- #line:12 
     narration: the vine wraps arround her ankle...her eyes close from the pain. #line:13 
 
-    <<walk_to "winter" "Vine_Location">>
+   // <<walk_to "winter" "Vine_Location">>
 
     someone: lilly!! hold on! #line:14 
     narration: lilly hears a familiar voice, winter #line:15 
@@ -45,7 +45,7 @@ lily: wait... are they moving? #line:8
         <<jump search_for_survivors>>
 
 -> start running to school #line:25
-    <<jump run_to_school>>
+    <<jump run_to_School>>
   
 ===
 
@@ -90,7 +90,7 @@ lily: its alive, it knows were here #line:46
 <<if $has_blade == 1>>
     <<jump charge_at_the_bloom>>
 <<else>>
-    <<jump approach_the_bloom_slowly>>
+    <<jump aprouch_the_bloom_slowly>>
 
  <<endif>>
 
