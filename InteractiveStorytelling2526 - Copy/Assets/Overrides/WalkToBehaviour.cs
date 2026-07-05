@@ -5,8 +5,8 @@ using Yarn.Unity;
 
 [RequireComponent(typeof(NavMeshAgent))]
 //[RequireComponent(typeof(Animator))]
-public class WalkToBehaviour : MonoBehaviour {
-    
+public class WalkToBehaviour : MonoBehaviour
+{
     private Animator animator;
     private NavMeshAgent agent;
 
@@ -15,63 +15,77 @@ public class WalkToBehaviour : MonoBehaviour {
     public GameObject target = null;
     public float targetDistance = 0f;
 
-    void Awake() {
+    void Awake()
+    {
         agent = GetComponent<NavMeshAgent>();
         agent.updatePosition = false;
         animator = GetComponent<Animator>();
-    }    
+    }
 
-    void UpdateTargetPosition() {
-        if (target != null) {
+    void UpdateTargetPosition()
+    {
+        if (target != null)
+        {
             agent.destination = target.transform.position - target.transform.forward * targetDistance;
         }
     }
 
-    void UpdatePathfinding() {
+    void UpdatePathfinding()
+    {
         UpdateTargetPosition();
 
-        if (!agent.pathPending)
-        if (agent.remainingDistance <= agent.stoppingDistance) {
-            target = null;
-            targetDistance = 0f;
+        
+        if (!agent.pathPending &&
+            agent.remainingDistance <= agent.stoppingDistance)
+        {
+            agent.ResetPath();
         }
 
         Vector3 worldDeltaPosition = agent.nextPosition - transform.position;
 
         float newSpeed = worldDeltaPosition.magnitude * 1000f;
         speed = speed * 0.9f + newSpeed * 0.1f;
-        if (speed >= 5f) { speed = 5f; }
+        if (speed >= 5f)
+        {
+            speed = 5f;
+        }
 
-        if (animator != null) {
+        if (animator != null)
+        {
             animator.SetFloat("MotionSpeed", speed * 0.2f);
             animator.SetFloat("Speed", speed);
         }
 
         transform.position = agent.nextPosition;
-        if (agent.velocity != Vector3.zero) {
-            transform.forward = Vector3.Slerp(transform.forward, agent.velocity.normalized, 0.015f);
+
+        if (agent.velocity != Vector3.zero)
+        {
+            transform.forward = Vector3.Slerp(
+                transform.forward,
+                agent.velocity.normalized,
+                0.015f
+            );
         }
     }
 
-public IEnumerator WalkTo(GameObject destination = null, float distance = 0f, bool shouldWait = true)
-{
-    target = destination;
-    targetDistance = distance;
+    public IEnumerator WalkTo(GameObject destination = null, float distance = 0f, bool shouldWait = true)
+    {
+        target = destination;
+        targetDistance = distance;
 
-    UpdateTargetPosition();
+        UpdateTargetPosition();
 
-    // 🚀 Always return immediately (non-blocking)
-    yield break;
-}
+    
+        yield break;
+    }
 
     private void OnFootstep(AnimationEvent animationEvent)
     {
-        //footstep
+        // Footstep logic here
     }
 
-    void Update() {
-        UpdateTargetPosition();
+    void Update()
+    {
         UpdatePathfinding();
     }
-
 }

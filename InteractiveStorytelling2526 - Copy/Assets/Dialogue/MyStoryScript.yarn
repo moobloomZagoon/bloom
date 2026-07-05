@@ -45,7 +45,7 @@ lily: wait... are they moving? #line:8
         <<jump search_for_survivors>>
 
 -> start running to school #line:25
-    <<jump run_to_School>>
+
   
 ===
 
@@ -61,6 +61,18 @@ winter: lets go lily, we need to get to the bottom of this, lets go to the schoo
 winter: this is where it all started, im sure of it. i head they call it the bloom #line:33
 tutorial: walk to the greenhouse or lab to investigate
 ===
+
+title: run_to_School_Winter
+---
+screams audio que:  
+lily: God what are those screams? 
+lily: how can this all happen in one night? 
+winter: lets go lily, we need to get to the bottom of this, lets go to the school as fast as we can 
+winter: this is where it all started, im sure of it. i head they call it the bloom 
+tutorial: walk to the greenhouse or lab to investigate
+===
+
+
 
 title: greenhouse
 ---
