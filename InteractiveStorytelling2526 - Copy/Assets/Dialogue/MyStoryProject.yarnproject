@@ -14,6 +14,5 @@
   "baseLanguage": "en",
   "compilerOptions": {
     "diagnosticsSeverity": {}
-  },
-  "definitionsFiles": []
+  }
 }
