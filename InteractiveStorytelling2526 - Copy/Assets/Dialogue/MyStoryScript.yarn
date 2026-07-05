@@ -32,7 +32,7 @@ lily: wait... are they moving? #line:8
     narration: winter slashes at the vine with a broken metal rod. the plant lets go, but not before biting into lilys calf with a ring of needle sharp teeth #line:16 
     lily: it bit me! #line:17 
     winter: this is not normal lily, we need to run. we need to get somewhere safe #line:18
-   -> search the aea #line:19
+   -> search the area #line:19
         narration: you find some matches, they might be usefull later #line:20 
         <<set $has_matches to 1>>
         -> hide #line:21 
@@ -51,7 +51,7 @@ lily: wait... are they moving? #line:8
 
 title: run_to_School
 ---
-screams audio que: #line:26 
+screaming is heard in the distance: #line:26 
 lily: God what are those screams? #line:27 
 lily: how can this all happen in one night? #line:28 
 lily: i need to get to the bottom of this #line:29 
