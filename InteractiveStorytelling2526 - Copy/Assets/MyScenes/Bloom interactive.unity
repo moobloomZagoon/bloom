@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 30344964}
   - component: {fileID: 30344963}
   - component: {fileID: 30344966}
+  - component: {fileID: 30344967}
   m_Layer: 0
   m_Name: school audio
   m_TagString: Untagged
@@ -365,6 +366,36 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &30344967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30344960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8248878846a5240955b14501bec006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TriggerEvent
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 30344966}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &37995427
 GameObject:
   m_ObjectHideFlags: 0
@@ -6748,24 +6779,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runner: {fileID: 2040721030}
   presenter: {fileID: 1728965096}
-  separateHurryUpAndAdvanceControls: 0
   multiAdvanceIsCancel: 0
   advanceRequestsBeforeCancellingLine: 2
   inputMode: 1
-  hasTransferredLegacyMapping: 0
-  legacyHurryUpLineAction: {fileID: 0}
-  legacyNextLineAction: {fileID: 0}
-  legacyHurryUpOptionsAction: {fileID: 0}
-  legacyCancelDialogueAction: {fileID: 0}
-  legacyEnableActions: 1
-  legacyHurryUpLineAxis: Jump
-  legacyNextLineAxis: Cancel
-  legacyHurryUpOptionsAxis: Jump
-  legacyCancelDialogueAxis: 
-  legacyHurryUpLineKeyCode: 32
-  legacyNextLineKeyCode: 101
-  legacyHurryUpOptionsKeyCode: 32
-  legacyCancelDialogueKeyCode: 0
+  hurryUpLineAction: {fileID: 0}
+  nextLineAction: {fileID: 0}
+  cancelDialogueAction: {fileID: 0}
+  enableActions: 1
+  hurryUpLineAxis: Jump
+  nextLineAxis: Cancel
+  cancelDialogueAxis: 
+  hurryUpLineKeyCode: 32
+  nextLineKeyCode: 27
+  cancelDialogueKeyCode: 0
 --- !u!114 &994844330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6778,11 +6804,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad15240c88dde41159620e5f27277386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: YarnSpinner.Unity::Yarn.Unity.LineAdvancerInput.KeyCodes
-  lineAdvancer: {fileID: 994844329}
-  hurryUpLineKeyCode: 32
-  nextLineKeyCode: 27
-  hurryUpOptionsKeyCode: 32
-  cancelDialogueKeyCode: 0
 --- !u!1 &999735867
 GameObject:
   m_ObjectHideFlags: 0
@@ -12181,6 +12202,7 @@ GameObject:
   - component: {fileID: 1412534819}
   - component: {fileID: 1412534818}
   - component: {fileID: 1412534821}
+  - component: {fileID: 1412534822}
   m_Layer: 0
   m_Name: lab audio
   m_TagString: Untagged
@@ -12378,6 +12400,36 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1412534822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412534815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8248878846a5240955b14501bec006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TriggerEvent
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1412534821}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1419239596
 GameObject:
   m_ObjectHideFlags: 0
@@ -17633,7 +17685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 1728965098}
   lineText: {fileID: 1508425978}
-  showCharacterNameInLine: 1
+  showCharacterNameInLineView: 1
   characterNameText: {fileID: 1820488701}
   characterNameContainer: {fileID: 0}
   useFadeEffect: 1
@@ -17641,11 +17693,8 @@ MonoBehaviour:
   fadeDownDuration: 0.1
   autoAdvance: 0
   autoAdvanceDelay: 1
-  typewriterStyle: 1
-  lettersPerSecond: 60
-  wordsPerSecond: 10
-  customTypewriter:
-    targetObject: {fileID: 0}
+  useTypewriterEffect: 1
+  typewriterEffectSpeed: 60
   eventHandlers:
   - {fileID: 2021482856}
 --- !u!224 &1728965097
@@ -21721,11 +21770,9 @@ MonoBehaviour:
   - {fileID: 991245434}
   - {fileID: 994844329}
   - {fileID: 1874211664}
-  verboseLogging: 0
   autoStart: 0
   startNode: Start
   runSelectedOptionAsLine: 0
-  allowOptionFallthrough: 1
   onNodeStart:
     m_PersistentCalls:
       m_Calls: []
