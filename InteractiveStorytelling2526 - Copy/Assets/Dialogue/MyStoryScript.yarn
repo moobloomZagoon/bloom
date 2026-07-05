@@ -59,16 +59,16 @@ someone: lilly!! hold on! #line:30
 narration: lilly hears a familiar voice, winter #line:31 
 winter: lets go lily, we need to get to the bottom of this, lets go to the school as fast as we can #line:32 
 winter: this is where it all started, im sure of it. i head they call it the bloom #line:33
--> investigate the greenhouse #line:34 
-    winter: This place ran an experimental botany program years ago. #line:35 
-    winter: My dad used to talk about it. said it was too dangerous #line:36
-    lily: they tried to play god... and now the lants think they are gods. #line:37 
-    narration: after searching arround the greenhouse you found a blade #line:38
-    <<set $has_blade to 1>>
-    -> investigate the lab #line:39 
-        <<jump lab>>
--> investigate the lab #line:40 
-    <<jump lab>>
+tutorial: walk to the greenhouse or lab to investigate
+===
+
+title: greenhouse
+---
+winter: This place ran an experimental botany program years ago. #line:35 
+winter: My dad used to talk about it. said it was too dangerous #line:36
+lily: they tried to play god... and now the lants think they are gods. #line:37
+narration: after searching arround the greenhouse you found a blade #line:38
+<<set $has_blade to 1>>
 ===
 
 title: lab

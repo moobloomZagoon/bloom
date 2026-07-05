@@ -2,9 +2,11 @@
   <Project Path="Unity.Cinemachine.Editor.csproj" />
   <Project Path="Unity.Collections.csproj" />
   <Project Path="Unity.Collections.Tests.csproj" />
+  <Project Path="DynamicWeatherSystem.Runtime.csproj" />
   <Project Path="Unity.Collections.PerformanceTests.csproj" />
   <Project Path="Unity.Cinemachine.csproj" />
   <Project Path="Unity.PerformanceTesting.csproj" />
+  <Project Path="Alebardium.BloodlinesUI.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="FMODUnityResonanceEditor.csproj" />
   <Project Path="FMODUnityEditor.csproj" />
@@ -14,6 +16,7 @@
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Unity.Collections.DocCodeSamples.csproj" />
   <Project Path="FMODUnityResonance.csproj" />
+  <Project Path="DynamicWeatherSystem.Editor.csproj" />
   <Project Path="Unity.Collections.Editor.csproj" />
   <Project Path="Unity.Collections.BurstCompatibilityGen.csproj" />
 </Solution>
