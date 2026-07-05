@@ -90,7 +90,7 @@ lily: its alive, it knows were here #line:46
 <<if $has_blade == 1>>
     <<jump charge_at_the_bloom>>
 <<else>>
-    <<jump aprouch_the_bloom_slowly>>
+    <<jump approach_the_bloom_slowly>>
 
  <<endif>>
 
@@ -106,7 +106,7 @@ lily: listen no rustling no whispering vines. just wind #line:51
 the end:You found the root. You killed The Bloom. The last survivors live on, and the world may yet grow again. #line:52 
 ===
 
-title:aprouch_the_bloom_slowly
+title:approach_the_bloom_slowly
 ---
 narration: liily and winter step forward and slowly approaches the bloom. #line:53 
 the end: in the blink of an eye theyre gone, they have been consumed #line:54 
