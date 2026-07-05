@@ -1,6 +1,6 @@
 using Yarn.Unity;
 
-[System.CodeDom.Compiler.GeneratedCode("YarnSpinner", "3.2.4.0")]
+[System.CodeDom.Compiler.GeneratedCode("YarnSpinner", "3.0.3.0")]
 public partial class YarnVariables : Yarn.Unity.InMemoryVariableStorage, Yarn.Unity.IGeneratedVariableStorage {
     // Accessor for Number $has_matches
     public float HasMatches {
